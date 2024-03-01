@@ -1,12 +1,74 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-import pandas as pd
-import random
 from faker import Faker
+import random
+import csv
+from datetime import datetime, timedelta
 import string
 
 fake = Faker('fr_FR')
+
+# Function to generate random date within a given range
+def generate_random_date(start_date, end_date):
+    return fake.date_between_dates(date_start=start_date, date_end=end_date)
+
+# Function to generate a random social security number
+def generate_social_security_number():
+    return fake.ssn()
+
+# Function to generate a random phone number
+def generate_phone_number():
+    return '+2126{:08d}'.format(random.randint(0, 99999999))
+
+# Function to generate a random email address
+def generate_email(first_name, last_name):
+    return fake.email()
+
+# Function to generate a random salary
+def generate_salary():
+    return random.randint(2500, 50000)
+
+# Function to generate a random card number
+def generate_card_number():
+    return fake.credit_card_number(card_type='mastercard')
+
+# Function to generate a random expiration date for a card
+def generate_card_expiration_date():
+    return fake.credit_card_expire()
+
+# Function to generate a random PIN code for a card
+def generate_pin_code():
+    return fake.credit_card_security_code(card_type='mastercard')
+
+# Function to generate a random loan amount
+def generate_loan_amount():
+    return random.randint(1000, 50000)
+
+# Function to generate a random interest rate for a loan
+def generate_interest_rate():
+    return round(random.uniform(1, 10), 2)
+
+# Function to generate a random loan term
+def generate_loan_term():
+    return random.randint(12, 60)
+
+# Function to generate a random date within a range for loan start and end dates
+def generate_loan_dates():
+    start_date = fake.date_this_year()
+    end_date = start_date + timedelta(days=random.randint(30, 365))
+    return start_date, end_date
+
+def generate_address(random_city, cities):
+    return f"{random_city}, {random.choice(cities[random_city])}"
+    
+
+# Function to generate a random monthly payment based on loan amount, interest rate, and loan term
+def calculate_monthly_payment(loan_amount, interest_rate, loan_term):
+    monthly_interest_rate = interest_rate / 100 / 12
+    denominator = (1 - (1 + monthly_interest_rate) ** -loan_term) / monthly_interest_rate
+    monthly_payment = loan_amount / denominator
+    return round(monthly_payment, 2)
+
+# Customer names
+
 custom_names = ['Tazim ','Sofian ','El Mahi ','Zubayr','Ismail','Ghaydaa','Nesma','Khadija','Farizah', 'Zhour','Ouahid','Mohammed','Abdelilah','Yassine','Mojiz','Attiq','Houssam','Hayat','Mouad','Ahmed','Imane','Hafssa','Achraf','Salah','Mohamed', 'Amir', 'Ibrahim', 'Naïm', 'Ali', 'Anas', 'Youssef', 'Younès', 'Ayoub', 'Wassim',
     'Zakaria', 'Amine', 'Hamza', 'Ismaïl', 'Ahmed', 'Nassim', 'Haroun', 'Moussa', 'Yassine','Kâmil', 'Mohammed', 'Omar', 'Qassim', 'Iyad', 'Mehdi']
 custom_Lnames = ['Chafik','Lemsih','Ben Haddou','El Aoufi','Nissaboury','Laroui','Lamrani','Serghini','Kaghat','Hajuji','Laroui',
@@ -45,6 +107,7 @@ quartiers_rabat = [
 ]
 
 quartiers_fes =['Essaada', 'Al azhar', 'Ennakhil', 'Lala Soukaina', 'Badr','Lido']
+
 villes = {
     'Casablanca': quartiers_casablanca,
     'Marrakech': quartiers_marrakech,
@@ -52,6 +115,7 @@ villes = {
     'Rabat': quartiers_rabat,
     'Fés': quartiers_fes
 }
+
 villes_keys = list(villes.keys())
 
 # Generate data for the Clients table
@@ -85,6 +149,13 @@ transactions_data = {
 }
 transactions_df = pd.DataFrame(transactions_data)
 
+# Save Agence table to CSV file
+with open('transactions.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["ID_transaction", "ID_Compte", "Type", "Date_Creation", "Montant"])
+    writer.writerows(transactions_data)
+
+
 # Generate data for the Comptes table
 num_comptes = 500
 type_de_contrat=(
@@ -100,6 +171,15 @@ comptes_data = {
     "Date_Creation": [fake.date_this_decade() for _ in range(num_comptes)]
 }
 comptes_df = pd.DataFrame(comptes_data)
+
+# Save Account table to CSV file
+with open('compte.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["ID_Compte", "ID_Client", "Type", "Solde", "Date_Creation"])
+    writer.writerows(comptes_df)
+
+
+
 
 num_agences=500
 agence_names = ["M HAITA","OULAD TEIMA", "TATA", "TAZNAKHT","TINGHIR", "MOKHTAR SOUSSI (MRE)","HASSAN 1er",
@@ -169,4 +249,95 @@ agences_data ={
     "Telephone": ['+2125{:08d}'.format(random.randint(0, 99999999)) for _ in range(num_agences)],
 }
 agences_df = pd.DataFrame(agences_data)
+
+# Save Agence table to CSV file
+with open('agence.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["ID_agence", "nom_agence", "Addresse", "Telephone"])
+    writer.writerows(agences_df)
+
+
+# Create Employee table
+employee_data = []
+for _ in range(10):
+    city = random.choice(villes_keys)
+    employee_data.append([
+        fake.uuid4(),  # Employee ID
+        random.choice(custom_Lnames),  # Last Name
+        random.choice(custom_names),  # First Name
+        generate_address(city,villes),  # Address
+        fake.zipcode(),  # Zipcode
+        city,  # City
+        "Morocco",  # Country
+        generate_phone_number(),  # Phone Number
+        generate_email(fake.first_name(), fake.last_name()),  # Email
+        fake.date_of_birth(),  # Date of Birth
+        generate_social_security_number(),  # Social Security Number
+        fake.date_this_decade(),  # Hire Date
+        fake.job(),  # Position
+        generate_salary(),  # Salary
+        fake.word()  # Department
+    ])
+
+# Save Employee table to CSV file
+with open('employee.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["EmployeeID", "LastName", "FirstName", "Address", "Zipcode", "City", "Country", "PhoneNumber",
+                     "Email", "DateOfBirth", "SocialSecurityNumber", "HireDate", "Position", "Salary", "Department"])
+    writer.writerows(employee_data)
+
+# Function to determine credit card type based on provider
+def determine_card_type(provider):
+    if "visa" in provider.lower():
+        return "Visa"
+    elif "mastercard" in provider.lower():
+        return "MasterCard"
+    elif "american express" in provider.lower():
+        return "American Express"
+    else:
+        return "Other"
+
+# Create Bank-Card table
+card_data = []
+for _ in range(10):
+    card_provider = fake.credit_card_provider()
+    card_data.append([
+        fake.uuid4(),  # Card ID
+        fake.uuid4(),  # Customer ID
+        generate_card_number(),  # Card Number
+        generate_card_expiration_date(),  # Expiration Date
+        determine_card_type(card_provider),  # Card Type
+        generate_pin_code()  # PIN Code
+    ])
+
+# Save Bank-Card table to CSV file
+with open('bank_card.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["CardID", "CustomerID", "CardNumber", "ExpirationDate", "CardType", "PINCode"])
+    writer.writerows(card_data)
+
+loan_data = []
+for _ in range(10):
+    loan_amount = generate_loan_amount()
+    interest_rate = generate_interest_rate()
+    loan_term = generate_loan_term()
+    start_date, end_date = generate_loan_dates()
+    monthly_payment = calculate_monthly_payment(loan_amount, interest_rate, loan_term)
+
+    loan_data.append([
+        fake.uuid4(),  # Loan ID
+        fake.uuid4(),  # Customer ID
+        loan_amount,  # Loan Amount
+        interest_rate,  # Interest Rate
+        loan_term,  # Loan Term
+        start_date,  # Start Date
+        end_date,  # End Date
+        monthly_payment  # Monthly Payment
+    ])
+
+# Save LOAN table to CSV file
+with open('loan.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["LoanID", "CustomerID", "LoanAmount", "InterestRate", "LoanTerm", "StartDate", "EndDate", "MonthlyPayment"])
+    writer.writerows(loan_data)
 
