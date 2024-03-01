@@ -3,6 +3,7 @@ import random
 import csv
 from datetime import datetime, timedelta
 import string
+import pandas as pd
 
 fake = Faker('fr_FR')
 
@@ -121,7 +122,7 @@ villes_keys = list(villes.keys())
 # Generate data for the Clients table
 num_clients = 500
 clients_data = {
-    "ID_Client": [fake.random_number(digits=6) for _ in range(num_clients)],
+    "ID_Client": [fake.uuid4() for _ in range(num_clients)],
     "Nom": [random.choice(custom_names) for _ in range(num_clients)],
     "Prenom": [random.choice(custom_names) for _ in range(num_clients)],
     "Genre": [random.choice(['M', 'F']) for _ in range(num_clients)],
@@ -132,17 +133,19 @@ clients_data = {
     "CIN": [random.choice(string.ascii_uppercase) + str(fake.random_number(digits=6)) for _ in range(num_clients)],  # Adjusted range to num_clients
     "flag_MRE": [random.choice(['O', 'N']) for _ in range(num_clients)],
     "flag_contencieux": [random.choice(['O', 'N']) for _ in range(num_clients)],
-    "ID_Compte": [fake.random_number(digits=6) for _ in range(num_clients)],
-    "id_agence": [fake.random_number(digits=4) for _ in range(num_clients)]  
+    "ID_Compte": [fake.uuid4() for _ in range(num_clients)],
+    "id_agence": [fake.uuid4() for _ in range(num_clients)]  
 
 }
 clients_df = pd.DataFrame(clients_data)
+clients_df.to_csv("Customer.csv" , index=False)
+
 
 # Generate data for the Transactions table
 num_transactions = 500
 transactions_data = {
-    "ID_transaction": [fake.random_number(digits=6) for _ in range(num_transactions)],
-    "ID_Compte": [fake.random_number(digits=6) for _ in range(num_transactions)],
+    "ID_transaction": [fake.uuid4() for _ in range(num_transactions)],
+    "ID_Compte": [fake.uuid4() for _ in range(num_transactions)],
     "Type": [random.choice(['Dépôt', 'Retrait']) for _ in range(num_transactions)],
     "Date_Creation": [fake.date_this_decade().strftime('%d%m%y') for _ in range(num_clients)],
     "Montant": [fake.random_number(digits=4) for _ in range(num_transactions)]
@@ -150,10 +153,7 @@ transactions_data = {
 transactions_df = pd.DataFrame(transactions_data)
 
 # Save Agence table to CSV file
-with open('transactions.csv', 'w', newline='') as file:
-    writer = csv.writer(file)
-    writer.writerow(["ID_transaction", "ID_Compte", "Type", "Date_Creation", "Montant"])
-    writer.writerows(transactions_data)
+transactions_df.to_csv("transactions.csv", index=False)
 
 
 # Generate data for the Comptes table
@@ -164,8 +164,8 @@ type_de_contrat=(
     'Compte de depot a vue', 'Compte joint'
      )
 comptes_data = {
-    "ID_Compte": [fake.random_number(digits=6) for _ in range(num_comptes)],
-    "ID_Client": [fake.random_number(digits=6) for _ in range(num_comptes)],
+    "ID_Compte": [fake.uuid4() for _ in range(num_comptes)],
+    "ID_Client": [fake.uuid4() for _ in range(num_comptes)],
     "Type": [random.choice(type_de_contrat) for _ in range(num_comptes)],
     "Solde": [fake.random_number(digits=4) for _ in range(num_comptes)],
     "Date_Creation": [fake.date_this_decade() for _ in range(num_comptes)]
@@ -173,10 +173,7 @@ comptes_data = {
 comptes_df = pd.DataFrame(comptes_data)
 
 # Save Account table to CSV file
-with open('compte.csv', 'w', newline='') as file:
-    writer = csv.writer(file)
-    writer.writerow(["ID_Compte", "ID_Client", "Type", "Solde", "Date_Creation"])
-    writer.writerows(comptes_df)
+comptes_df.to_csv("Account.csv", index=False)
 
 
 
@@ -243,7 +240,7 @@ addresse_agences = [
 ]
 
 agences_data ={
-    "ID_agence": [fake.random_number(digits=4) for _ in range(num_agences)],
+    "ID_agence": [fake.uuid4() for _ in range(num_agences)],
     "nom_agence" :[random.choice(agence_names) for _ in range(num_agences)],
     "Addresse" : [random.choice(addresse_agences) for _ in range(num_agences)],
     "Telephone": ['+2125{:08d}'.format(random.randint(0, 99999999)) for _ in range(num_agences)],
@@ -251,10 +248,7 @@ agences_data ={
 agences_df = pd.DataFrame(agences_data)
 
 # Save Agence table to CSV file
-with open('agence.csv', 'w', newline='') as file:
-    writer = csv.writer(file)
-    writer.writerow(["ID_agence", "nom_agence", "Addresse", "Telephone"])
-    writer.writerows(agences_df)
+agences_df.to_csv("agences.csv", index=False)
 
 
 # Create Employee table
@@ -266,7 +260,7 @@ for _ in range(10):
         random.choice(custom_Lnames),  # Last Name
         random.choice(custom_names),  # First Name
         generate_address(city,villes),  # Address
-        fake.zipcode(),  # Zipcode
+        random.randint(10000, 99000),  # Zipcode
         city,  # City
         "Morocco",  # Country
         generate_phone_number(),  # Phone Number
