@@ -274,10 +274,10 @@ for _ in range(10):
     ])
 
 # Save Employee table to CSV file
-with open('employee.csv', 'w', newline='') as file:
+with open('employe.csv', 'w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["EmployeeID", "LastName", "FirstName", "Address", "Zipcode", "City", "Country", "PhoneNumber",
-                     "Email", "DateOfBirth", "SocialSecurityNumber", "HireDate", "Position", "Salary", "Department"])
+    writer.writerow(["EmployeeID", "Nom", "Prenom", "Adresse", "Zipcode", "Ville", "Pays", "Numero_tele",
+                     "Email", "Date_naissance", "NumeroSecuriteSocial", "Date_recrutement", "Poste", "Salaire", "Departement"])
     writer.writerows(employee_data)
 
 # Function to determine credit card type based on provider
@@ -289,7 +289,7 @@ def determine_card_type(provider):
     elif "american express" in provider.lower():
         return "American Express"
     else:
-        return "Other"
+        return "Autre"
 
 # Create Bank-Card table
 card_data = []
@@ -307,7 +307,7 @@ for _ in range(10):
 # Save Bank-Card table to CSV file
 with open('bank_card.csv', 'w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["CardID", "CustomerID", "CardNumber", "ExpirationDate", "CardType", "PINCode"])
+    writer.writerow(["ID_Carte", "ID_Client", "Numero_carte", "Date_expiration", "Type_carte", "Code_PIN"])
     writer.writerows(card_data)
 
 loan_data = []
@@ -332,6 +332,110 @@ for _ in range(10):
 # Save LOAN table to CSV file
 with open('loan.csv', 'w', newline='') as file:
     writer = csv.writer(file)
-    writer.writerow(["LoanID", "CustomerID", "LoanAmount", "InterestRate", "LoanTerm", "StartDate", "EndDate", "MonthlyPayment"])
+    writer.writerow(["ID_Prêt", "ID_Client", "Montant_Pret", "Taux_Interet", "Duree_Pret", "Date_Debut", "Date_Fin", "Paiement_Mensuel"])
     writer.writerows(loan_data)
+
+
+# Function to generate synthetic data for the ATM Location Table
+def generate_atm_data():
+    return {
+        'ATM_ID': fake.uuid4(),
+        'Localisation': fake.address(),
+        'Informations': fake.sentence(),
+    }
+
+# Function to generate synthetic data for the Product Information Table
+def generate_product_data():
+    return {
+        'ID_Produit': fake.uuid4(),
+        'Type_Produit': fake.word(),
+        'Caract_Produit': fake.sentence(),
+        'Conditions_utilisation': fake.paragraph(),
+    }
+
+# Function to generate synthetic data for the Interest Rates Table
+def generate_interest_rates_data():
+    return {
+        'ID_Taux': fake.uuid4(),
+        'Type_Produit': fake.word(),
+        'Taux_Interet': random.uniform(1, 10),
+    }
+
+# Function to generate synthetic data for the Public Announcements Table
+def generate_announcements_data():
+    return {
+        'ID_Annonce': fake.uuid4(),
+        'Title': fake.sentence(),
+        'Date': fake.date_this_year(),
+        'Description': fake.paragraph(),
+    }
+
+# Function to generate synthetic data for the Financial Education Resources Table
+def generate_education_resources_data():
+    return {
+        'ID_Ressource': fake.uuid4(),
+        'Title': fake.sentence(),
+        'Description': fake.paragraph(),
+        'URL_or_reference': fake.url(),
+    }
+
+# Function to generate synthetic data for the Community Engagement Table
+def generate_community_engagement_data():
+    return {
+        'ID_Evenement': fake.uuid4(),
+        'Nom_Evenement': fake.word(),
+        'Date': fake.date_this_year(),
+        'Lieu': fake.address(),
+        'Description': fake.paragraph(),
+    }
+
+# Function to generate synthetic data for the FAQs and Help Desk Table
+def generate_faqs_data():
+    return {
+        'ID_Question': fake.uuid4(),
+        'Question': fake.text(),
+        'Reponse': fake.paragraph(),
+    }
+
+# Function to generate synthetic data for the Customer Service Contact Information Table
+def generate_contact_info_data():
+    return {
+        'ID_Contact': fake.uuid4(),
+        'Type_Contact': fake.word(),
+        'Coordonnees_Contact': fake.phone_number(),
+    }
+
+# Function to generate synthetic data for the Public Surveys Table
+def generate_surveys_data():
+    return {
+        'ID_Enquete': fake.uuid4(),
+        'Titre_Enquete': fake.sentence(),
+        'Questions': ', '.join([fake.sentence() for _ in range(5)]),
+    }
+
+# Generate 100 rows for each table
+num_rows = 100
+
+# Create dataframes for each table
+atm_df = pd.DataFrame([generate_atm_data() for _ in range(num_rows)])
+product_df = pd.DataFrame([generate_product_data() for _ in range(num_rows)])
+interest_rates_df = pd.DataFrame([generate_interest_rates_data() for _ in range(num_rows)])
+announcements_df = pd.DataFrame([generate_announcements_data() for _ in range(num_rows)])
+education_resources_df = pd.DataFrame([generate_education_resources_data() for _ in range(num_rows)])
+community_engagement_df = pd.DataFrame([generate_community_engagement_data() for _ in range(num_rows)])
+faqs_df = pd.DataFrame([generate_faqs_data() for _ in range(num_rows)])
+contact_info_df = pd.DataFrame([generate_contact_info_data() for _ in range(num_rows)])
+surveys_df = pd.DataFrame([generate_surveys_data() for _ in range(num_rows)])
+
+# Output the dataframes to CSV files
+atm_df.to_csv('atm_data.csv', index=False)
+product_df.to_csv('produit_data.csv', index=False)
+interest_rates_df.to_csv('Taux_Interets_data.csv', index=False)
+announcements_df.to_csv('annonces_data.csv', index=False)
+education_resources_df.to_csv('education_data.csv', index=False)
+community_engagement_df.to_csv('community_engagement_data.csv', index=False)
+faqs_df.to_csv('faqs_data.csv', index=False)
+contact_info_df.to_csv('contact_info_data.csv', index=False)
+surveys_df.to_csv('surveys_data.csv', index=False)
+
 
