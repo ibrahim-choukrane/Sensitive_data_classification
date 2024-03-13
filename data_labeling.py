@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import sys
+import os
 
 
 # Define the sensitivity rules
@@ -22,17 +24,20 @@ sensitivity_rules = {
     'atm_data': {'ATM_ID': 'Restreint', "Localisation": 'Restreint', "Informations": 'Restreint'},
 }
 
-embeddings = pd.read_csv("Glove_embeddings.csv")
-
-embeddings.index = pd.MultiIndex.from_frame(embeddings.loc[:,["Unnamed: 0","Unnamed: 1"]],names= ("Table", "Column"))
-embeddings.drop(["Unnamed: 0","Unnamed: 1"], axis=1, inplace=True)
-
-labels = [sensitivity_rules[table][column] for table, column in embeddings.index]
-
-serie_labels = pd.Series(labels)
-
-embeddings['sensitivity'] = serie_labels.to_numpy()
+if ( len(sys.argv) == 2 ) and ( os.path.splitext(sys.argv[1])[1] == '.csv'):
     
-embeddings.to_csv("labeled_data.csv")
+    embeddings = pd.read_csv(sys.argv[1])
+    
+    embeddings.index = pd.MultiIndex.from_frame(embeddings.loc[:,["Unnamed: 0","Unnamed: 1"]],names= ("Table", "Column"))
+    embeddings.drop(["Unnamed: 0","Unnamed: 1"], axis=1, inplace=True)
+    
+    labels = [sensitivity_rules[table][column] for table, column in embeddings.index]
+    
+    serie_labels = pd.Series(labels)
+    
+    embeddings['sensitivity'] = serie_labels.to_numpy()
+        
+    embeddings.to_csv(f"labeled_{os.path.splitext(sys.argv[1])[0]}.csv")
 
-embeddings.to_csv("labeled.csv", columns=['sensitivity'])
+else:
+    print("Please provide appropriate parameters")
