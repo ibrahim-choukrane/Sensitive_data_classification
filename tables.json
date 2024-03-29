@@ -1,0 +1,858 @@
+{
+    "table_1": {
+        "name": "clients_professionnels",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "entreprise",
+                "type": "string"
+            },
+            {
+                "name": "secteur_activite",
+                "type": "string"
+            },
+            {
+                "name": "adresse",
+                "type": "string"
+            },
+            {
+                "name": "telephone",
+                "type": "string"
+            }
+        ]
+    },
+    "table_2": {
+        "name": "responsable_comptes",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "nom",
+                "type": "string"
+            },
+            {
+                "name": "prenom",
+                "type": "string"
+            },
+            {
+                "name": "email",
+                "type": "string"
+            }
+        ]
+    },
+    "table_3": {
+        "name": "produits_bancaires",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "nom_produit",
+                "type": "string"
+            },
+            {
+                "name": "taux_interet",
+                "type": "float"
+            },
+            {
+                "name": "montant_minimum",
+                "type": "float"
+            },
+            {
+                "name": "duree_plafond",
+                "type": "int"
+            }
+        ]
+    },
+    "table_4": {
+        "name": "reclamations_clients",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "date_reclamation",
+                "type": "date"
+            },
+            {
+                "name": "description",
+                "type": "string"
+            },
+            {
+                "name": "statut",
+                "type": "string"
+            },
+            {
+                "name": "reponse",
+                "type": "string"
+            }
+        ]
+    },
+    "table_5": {
+        "name": "commission_transactions",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "type_transaction",
+                "type": "string"
+            },
+            {
+                "name": "commission",
+                "type": "float"
+            }
+        ]
+    },
+    "table_6": {
+        "name": "comptes_joint",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "titulaire_1",
+                "type": "int"
+            },
+            {
+                "name": "titulaire_2",
+                "type": "int"
+            },
+            {
+                "name": "solde",
+                "type": "float"
+            },
+            {
+                "name": "date_ouverture",
+                "type": "date"
+            }
+        ]
+    },
+    "table_7": {
+        "name": "cheques_encaisses",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "montant",
+                "type": "float"
+            },
+            {
+                "name": "date_encaissement",
+                "type": "date"
+            },
+            {
+                "name": "nom_beneficiaire",
+                "type": "string"
+            },
+            {
+                "name": "numero_compte",
+                "type": "string"
+            }
+        ]
+    },
+    "table_8": {
+        "name": "assurances_biens",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "type_bien",
+                "type": "string"
+            },
+            {
+                "name": "valeur_assuree",
+                "type": "float"
+            },
+            {
+                "name": "prime_annuelle",
+                "type": "float"
+            }
+        ]
+    },
+    "table_9": {
+        "name": "valeurs_mobilieres",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "code_valeur",
+                "type": "string"
+            },
+            {
+                "name": "nom_societe",
+                "type": "string"
+            },
+            {
+                "name": "cours_actuel",
+                "type": "float"
+            },
+            {
+                "name": "volume_echange",
+                "type": "int"
+            }
+        ]
+    },
+    "table_10": {
+        "name": "transactions_devises",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "devise",
+                "type": "string"
+            },
+            {
+                "name": "montant",
+                "type": "float"
+            },
+            {
+                "name": "taux_change",
+                "type": "float"
+            },
+            {
+                "name": "date_transaction",
+                "type": "date"
+            }
+        ]
+    },
+    "table_11": {
+        "name": "cartes_virtuelles",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "numero_carte",
+                "type": "string"
+            },
+            {
+                "name": "date_expiration",
+                "type": "date"
+            },
+            {
+                "name": "plafond_quotidien",
+                "type": "float"
+            },
+            {
+                "name": "type_carte",
+                "type": "string"
+            }
+        ]
+    },
+    "table_12": {
+        "name": "alertes_transactions",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "type_alerte",
+                "type": "string"
+            },
+            {
+                "name": "date_creation",
+                "type": "date"
+            },
+            {
+                "name": "statut",
+                "type": "string"
+            },
+            {
+                "name": "priorite",
+                "type": "int"
+            }
+        ]
+    },
+    "table_13": {
+        "name": "gestionnaires_clients",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "nom_agence",
+                "type": "string"
+            },
+            {
+                "name": "nom_gestionnaire",
+                "type": "string"
+            },
+            {
+                "name": "telephone",
+                "type": "string"
+            },
+            {
+                "name": "email",
+                "type": "string"
+            }
+        ]
+    },
+    "table_14": {
+        "name": "societes_partenaires",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "nom_societe",
+                "type": "string"
+            },
+            {
+                "name": "secteur_activite",
+                "type": "string"
+            },
+            {
+                "name": "adresse",
+                "type": "string"
+            },
+            {
+                "name": "telephone",
+                "type": "string"
+            }
+        ]
+    },
+    "table_15": {
+        "name": "reliquat_commissions",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "numero_compte",
+                "type": "string"
+            },
+            {
+                "name": "montant_commission",
+                "type": "float"
+            },
+            {
+                "name": "date_operation",
+                "type": "date"
+            }
+        ]
+    },
+    "table_16": {
+        "name": "transactions_interbancaires",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "banque_emetrice",
+                "type": "string"
+            },
+            {
+                "name": "banque_destinatrice",
+                "type": "string"
+            },
+            {
+                "name": "montant",
+                "type": "float"
+            },
+            {
+                "name": "date_transaction",
+                "type": "date"
+            }
+        ]
+    },
+    "table_17": {
+        "name": "cautions_bancaires",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "num_contrat",
+                "type": "string"
+            },
+            {
+                "name": "beneficiaire",
+                "type": "string"
+            },
+            {
+                "name": "montant",
+                "type": "float"
+            },
+            {
+                "name": "type_caution",
+                "type": "string"
+            }
+        ]
+    },
+    "table_18": {
+        "name": "analyse_risque",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "type_risque",
+                "type": "string"
+            },
+            {
+                "name": "description",
+                "type": "string"
+            },
+            {
+                "name": "niveau",
+                "type": "string"
+            },
+            {
+                "name": "date_creation",
+                "type": "date"
+            }
+        ]
+    },
+    "table_19": {
+        "name": "recommandations_placements",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "produit_recommande",
+                "type": "string"
+            },
+            {
+                "name": "raison_recommandation",
+                "type": "string"
+            },
+            {
+                "name": "date_recommandation",
+                "type": "date"
+            },
+            {
+                "name": "client_concerne",
+                "type": "int"
+            }
+        ]
+    },
+    "table_20": {
+        "name": "courses_devise",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "devise_achetee",
+                "type": "string"
+            },
+            {
+                "name": "devise_vendue",
+                "type": "string"
+            },
+            {
+                "name": "montant_achat",
+                "type": "float"
+            },
+            {
+                "name": "montant_vente",
+                "type": "float"
+            }
+        ]
+    },
+    "table_21": {
+        "name": "livraisons_cartes",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "numero_carte",
+                "type": "string"
+            },
+            {
+                "name": "date_livraison",
+                "type": "date"
+            },
+            {
+                "name": "adresse_livraison",
+                "type": "string"
+            },
+            {
+                "name": "destinataire",
+                "type": "string"
+            }
+        ]
+    },
+    "table_22": {
+        "name": "partenariats_commerciaux",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "nom_partenaire",
+                "type": "string"
+            },
+            {
+                "name": "domaine_activite",
+                "type": "string"
+            },
+            {
+                "name": "benefices",
+                "type": "string"
+            },
+            {
+                "name": "date_debut",
+                "type": "date"
+            }
+        ]
+    },
+    "table_23": {
+        "name": "fiscalite_comptes",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "type_avantage",
+                "type": "string"
+            },
+            {
+                "name": "taux_imposition",
+                "type": "float"
+            },
+            {
+                "name": "date_application",
+                "type": "date"
+            },
+            {
+                "name": "description",
+                "type": "string"
+            }
+        ]
+    },
+    "table_24": {
+        "name": "gestion_credits",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "montant_disponible",
+                "type": "float"
+            },
+            {
+                "name": "taux_interet",
+                "type": "float"
+            },
+            {
+                "name": "duree_remboursement",
+                "type": "int"
+            },
+            {
+                "name": "date_octroi",
+                "type": "date"
+            }
+        ]
+    },
+    "table_25": {
+        "name": "clients_particuliers",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "nom",
+                "type": "string"
+            },
+            {
+                "name": "prenom",
+                "type": "string"
+            },
+            {
+                "name": "cin",
+                "type": "string"
+            },
+            {
+                "name": "adresse",
+                "type": "string"
+            }
+        ]
+    },
+    "table_26": {
+        "name": "pensions_retraites",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "montant_mensuel",
+                "type": "float"
+            },
+            {
+                "name": "date_debut",
+                "type": "date"
+            },
+            {
+                "name": "date_fin",
+                "type": "date"
+            }
+        ]
+    },
+    "table_27": {
+        "name": "operations_change",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "devise_achat",
+                "type": "string"
+            },
+            {
+                "name": "devise_vente",
+                "type": "string"
+            },
+            {
+                "name": "montant_achat",
+                "type": "float"
+            },
+            {
+                "name": "montant_vente",
+                "type": "float"
+            }
+        ]
+    },
+    "table_28": {
+        "name": "analyse_portefeuille",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "type_instrument",
+                "type": "string"
+            },
+            {
+                "name": "valeur_actuelle",
+                "type": "float"
+            },
+            {
+                "name": "poids_portefeuille",
+                "type": "float"
+            },
+            {
+                "name": "date_evaluation",
+                "type": "date"
+            }
+        ]
+    },
+    "table_29": {
+        "name": "offres_speciales",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "type_offre",
+                "type": "string"
+            },
+            {
+                "name": "description",
+                "type": "string"
+            },
+            {
+                "name": "date_debut",
+                "type": "date"
+            },
+            {
+                "name": "date_fin",
+                "type": "date"
+            }
+        ]
+    },
+    "table_30": {
+        "name": "transactions_immobilieres",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "type_transaction",
+                "type": "string"
+            },
+            {
+                "name": "montant_transaction",
+                "type": "float"
+            },
+            {
+                "name": "date_transaction",
+                "type": "date"
+            },
+            {
+                "name": "adresse_bien",
+                "type": "string"
+            }
+        ]
+    },
+    "table_31": {
+        "name": "oppositions_cartes",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "numero_carte",
+                "type": "string"
+            },
+            {
+                "name": "date_opposition",
+                "type": "date"
+            },
+            {
+                "name": "raison_opposition",
+                "type": "string"
+            },
+            {
+                "name": "statut",
+                "type": "string"
+            }
+        ]
+    },
+    "table_32": {
+        "name": "interets_credits",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "montant",
+                "type": "float"
+            },
+            {
+                "name": "date_operation",
+                "type": "date"
+            },
+            {
+                "name": "numero_compte",
+                "type": "string"
+            }
+        ]
+    },
+    "table_33": {
+        "name": "emprunts_credits",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "montant",
+                "type": "float"
+            },
+            {
+                "name": "date_emprunt",
+                "type": "date"
+            },
+            {
+                "name": "taux_interet",
+                "type": "float"
+            },
+            {
+                "name": "duree_remboursement",
+                "type": "int"
+            }
+        ]
+    },
+    "table_34": {
+        "name": "transactions_immobilieres",
+        "columns": [
+            {
+                "name": "id",
+                "type": "int",
+                "primary_key": true
+            },
+            {
+                "name": "type_transaction",
+                "type": "string"
+            },
+            {
+                "name": "montant_transaction",
+                "type": "float"
+            },
+            {
+                "name": "date_transaction",
+                "type": "date"
+            },
+            {
+                "name": "adresse_bien",
+                "type": "string"
+            }
+        ]
+    }
+}
