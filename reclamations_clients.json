@@ -1,0 +1,356 @@
+{
+    "reclamations_clients": [
+        [
+            {
+                "id": 1,
+                "date_reclamation": "2022-01-03",
+                "description": "Retrait d'argent non effectu\u00e9 dans le distributeur automatique",
+                "statut": "En attente de traitement",
+                "reponse": ""
+            },
+            {
+                "id": 2,
+                "date_reclamation": "2022-01-06",
+                "description": "Erreur de montant lors du virement bancaire",
+                "statut": "En cours d'examen",
+                "reponse": ""
+            },
+            {
+                "id": 3,
+                "date_reclamation": "2022-01-10",
+                "description": "Paiement par carte refus\u00e9 sans raison apparente",
+                "statut": "En attente de r\u00e9ponse",
+                "reponse": ""
+            },
+            {
+                "id": 4,
+                "date_reclamation": "2022-01-15",
+                "description": "Frais bancaires excessifs factur\u00e9s",
+                "statut": "En cours de validation",
+                "reponse": ""
+            },
+            {
+                "id": 5,
+                "date_reclamation": "2022-01-20",
+                "description": "Probl\u00e8me de connexion \u00e0 l'application mobile",
+                "statut": "En attente de traitement",
+                "reponse": ""
+            },
+            {
+                "id": 6,
+                "date_reclamation": "2022-01-25",
+                "description": "Carte bancaire aval\u00e9e par un distributeur",
+                "statut": "En cours d'investigation",
+                "reponse": ""
+            },
+            {
+                "id": 7,
+                "date_reclamation": "2022-01-28",
+                "description": "D\u00e9lai de traitement d'un ch\u00e8que trop long",
+                "statut": "En attente de r\u00e9ponse",
+                "reponse": ""
+            },
+            {
+                "id": 8,
+                "date_reclamation": "2022-02-02",
+                "description": "Probl\u00e8me d'authentification sur le site web de la banque",
+                "statut": "En cours de correction",
+                "reponse": ""
+            },
+            {
+                "id": 9,
+                "date_reclamation": "2022-02-06",
+                "description": "Demande de d\u00e9couvert non prise en compte",
+                "statut": "En attente de traitement",
+                "reponse": ""
+            },
+            {
+                "id": 10,
+                "date_reclamation": "2022-02-10",
+                "description": "Paiement par ch\u00e8que annul\u00e9 mais montant d\u00e9bit\u00e9",
+                "statut": "En cours d'examen",
+                "reponse": ""
+            },
+            {
+                "id": 11,
+                "date_reclamation": "2022-02-15",
+                "description": "Taux de change non conforme \u00e0 celui du march\u00e9",
+                "statut": "En attente de r\u00e9ponse",
+                "reponse": ""
+            },
+            {
+                "id": 12,
+                "date_reclamation": "2022-02-20",
+                "description": "Incident de paiement par NFC en magasin",
+                "statut": "En cours de validation",
+                "reponse": ""
+            },
+            {
+                "id": 13,
+                "date_reclamation": "2022-02-25",
+                "description": "Retard dans l'ex\u00e9cution d'un virement international",
+                "statut": "En attente de traitement",
+                "reponse": ""
+            },
+            {
+                "id": 14,
+                "date_reclamation": "2022-02-28",
+                "description": "Acc\u00e8s au compte bloqu\u00e9 sans justification",
+                "statut": "En cours d'investigation",
+                "reponse": ""
+            },
+            {
+                "id": 15,
+                "date_reclamation": "2022-03-05",
+                "description": "Incoh\u00e9rence entre les transactions affich\u00e9es et les op\u00e9rations r\u00e9elles",
+                "statut": "En attente de r\u00e9ponse",
+                "reponse": ""
+            },
+            {
+                "id": 16,
+                "date_reclamation": "2022-03-10",
+                "description": "Probl\u00e8me de versement d'un ch\u00e8que par un tiers",
+                "statut": "En cours de correction",
+                "reponse": ""
+            },
+            {
+                "id": 17,
+                "date_reclamation": "2022-03-15",
+                "description": "Erreur de plafond de retrait au distributeur",
+                "statut": "En attente de traitement",
+                "reponse": ""
+            },
+            {
+                "id": 18,
+                "date_reclamation": "2022-03-20",
+                "description": "D\u00e9claration de perte de carte non prise en compte",
+                "statut": "En cours d'examen",
+                "reponse": ""
+            },
+            {
+                "id": 19,
+                "date_reclamation": "2022-03-25",
+                "description": "Fuite de donn\u00e9es personnelles par l'application mobile",
+                "statut": "En attente de r\u00e9ponse",
+                "reponse": ""
+            },
+            {
+                "id": 20,
+                "date_reclamation": "2022-03-28",
+                "description": "Retrait d'esp\u00e8ces non distribu\u00e9es au guichet automatique",
+                "statut": "En cours de validation",
+                "reponse": ""
+            },
+            {
+                "id": 21,
+                "date_reclamation": "2022-04-02",
+                "description": "Double d\u00e9bit sur un paiement par carte en ligne",
+                "statut": "En attente de traitement",
+                "reponse": ""
+            },
+            {
+                "id": 22,
+                "date_reclamation": "2022-04-06",
+                "description": "Absence de confirmation de virement interne",
+                "statut": "En cours d'investigation",
+                "reponse": ""
+            },
+            {
+                "id": 23,
+                "date_reclamation": "2022-04-10",
+                "description": "Changement de mot de passe non pris en compte",
+                "statut": "En attente de r\u00e9ponse",
+                "reponse": ""
+            },
+            {
+                "id": 24,
+                "date_reclamation": "2022-04-15",
+                "description": "Blocage de carte suite \u00e0 voyage \u00e0 l'\u00e9tranger mal interpr\u00e9t\u00e9",
+                "statut": "En cours de correction",
+                "reponse": ""
+            },
+            {
+                "id": 25,
+                "date_reclamation": "2022-04-20",
+                "description": "Ouverture de compte non finalis\u00e9e malgr\u00e9 documents fournis",
+                "statut": "En attente de traitement",
+                "reponse": ""
+            },
+            {
+                "id": 26,
+                "date_reclamation": "2022-04-25",
+                "description": "Paiement par ch\u00e8que refus\u00e9 pour signature non conforme",
+                "statut": "En cours d'examen",
+                "reponse": ""
+            },
+            {
+                "id": 27,
+                "date_reclamation": "2022-04-28",
+                "description": "Probl\u00e8me de qualit\u00e9 de service lors d'un appel au service client",
+                "statut": "En attente de r\u00e9ponse",
+                "reponse": ""
+            },
+            {
+                "id": 28,
+                "date_reclamation": "2022-05-02",
+                "description": "D\u00e9bit frauduleux sur carte bancaire sans alerte de s\u00e9curit\u00e9",
+                "statut": "En cours de validation",
+                "reponse": ""
+            },
+            {
+                "id": 29,
+                "date_reclamation": "2022-05-06",
+                "description": "Erreur d'adresse de livraison pour un ch\u00e9quier",
+                "statut": "En attente de traitement",
+                "reponse": ""
+            },
+            {
+                "id": 30,
+                "date_reclamation": "2022-05-10",
+                "description": "Incident de paiement avec un commer\u00e7ant en ligne",
+                "statut": "En cours d'investigation",
+                "reponse": ""
+            },
+            {
+                "id": 31,
+                "date_reclamation": "2022-05-15",
+                "description": "Modification non autoris\u00e9e des plafonds de la carte bancaire",
+                "statut": "En attente de r\u00e9ponse",
+                "reponse": ""
+            },
+            {
+                "id": 32,
+                "date_reclamation": "2022-05-20",
+                "description": "Probl\u00e8me de disponibilit\u00e9 des fonds \u00e0 l'\u00e9tranger",
+                "statut": "En cours de correction",
+                "reponse": ""
+            },
+            {
+                "id": 33,
+                "date_reclamation": "2022-05-25",
+                "description": "Retard dans la mise en place d'un pr\u00e9l\u00e8vement automatique",
+                "statut": "En attente de traitement",
+                "reponse": ""
+            },
+            {
+                "id": 34,
+                "date_reclamation": "2022-05-28",
+                "description": "Changement d'adresse non pris en compte pour envoi de ch\u00e9quier",
+                "statut": "En cours d'examen",
+                "reponse": ""
+            },
+            {
+                "id": 35,
+                "date_reclamation": "2022-06-02",
+                "description": "Paiement par carte d\u00e9bit\u00e9 deux fois lors d'un achat",
+                "statut": "En attente de r\u00e9ponse",
+                "reponse": ""
+            },
+            {
+                "id": 36,
+                "date_reclamation": "2022-06-06",
+                "description": "Situation de d\u00e9couvert non notifi\u00e9e malgr\u00e9 accord pr\u00e9alable",
+                "statut": "En cours de validation",
+                "reponse": ""
+            },
+            {
+                "id": 37,
+                "date_reclamation": "2022-06-10",
+                "description": "Probl\u00e8me de reconnaissance d'empreinte digitale sur l'application mobile",
+                "statut": "En attente de traitement",
+                "reponse": ""
+            },
+            {
+                "id": 38,
+                "date_reclamation": "2022-06-15",
+                "description": "Erreur de montant cr\u00e9dit\u00e9 lors d'un d\u00e9p\u00f4t de ch\u00e8que",
+                "statut": "En cours d'investigation",
+                "reponse": ""
+            },
+            {
+                "id": 39,
+                "date_reclamation": "2022-06-20",
+                "description": "Absence d'alerte de d\u00e9passement d'un seuil de virement automatique",
+                "statut": "En attente de r\u00e9ponse",
+                "reponse": ""
+            },
+            {
+                "id": 40,
+                "date_reclamation": "2022-06-25",
+                "description": "Retard de r\u00e9ception de carte de paiement suite \u00e0 demande d'urgence",
+                "statut": "En cours de correction",
+                "reponse": ""
+            },
+            {
+                "id": 41,
+                "date_reclamation": "2022-06-28",
+                "description": "Probl\u00e8me de configuration de l'application de paiement mobile",
+                "statut": "En attente de traitement",
+                "reponse": ""
+            },
+            {
+                "id": 42,
+                "date_reclamation": "2022-07-02",
+                "description": "Erreur d'inscription de b\u00e9n\u00e9ficiaire pour un virement",
+                "statut": "En cours d'examen",
+                "reponse": ""
+            },
+            {
+                "id": 43,
+                "date_reclamation": "2022-07-06",
+                "description": "Rejet de pr\u00e9l\u00e8vement automatique sans motif explicite",
+                "statut": "En attente de r\u00e9ponse",
+                "reponse": ""
+            },
+            {
+                "id": 44,
+                "date_reclamation": "2022-07-10",
+                "description": "Suspicion de fraude sur le compte suite \u00e0 des op\u00e9rations suspectes",
+                "statut": "En cours de validation",
+                "reponse": ""
+            },
+            {
+                "id": 45,
+                "date_reclamation": "2022-07-15",
+                "description": "Inaccessibilit\u00e9 au service en ligne pendant plusieurs heures",
+                "statut": "En attente de traitement",
+                "reponse": ""
+            },
+            {
+                "id": 46,
+                "date_reclamation": "2022-07-20",
+                "description": "Changement de num\u00e9ro de t\u00e9l\u00e9phone non valid\u00e9 pour alertes SMS",
+                "statut": "En cours d'investigation",
+                "reponse": ""
+            },
+            {
+                "id": 47,
+                "date_reclamation": "2022-07-25",
+                "description": "Probl\u00e8me de remboursement sur une op\u00e9ration annul\u00e9e",
+                "statut": "En attente de r\u00e9ponse",
+                "reponse": ""
+            },
+            {
+                "id": 48,
+                "date_reclamation": "2022-07-28",
+                "description": "Modification non enregistr\u00e9e des coordonn\u00e9es pour l'envoi de relev\u00e9s",
+                "statut": "En cours de correction",
+                "reponse": ""
+            },
+            {
+                "id": 49,
+                "date_reclamation": "2022-08-02",
+                "description": "Probl\u00e8me de reconnaissance faciale pour validation de paiement en ligne",
+                "statut": "En attente de traitement",
+                "reponse": ""
+            },
+            {
+                "id": 50,
+                "date_reclamation": "2022-08-06",
+                "description": "D\u00e9p\u00f4t d'esp\u00e8ces non cr\u00e9dit\u00e9 sur le compte imm\u00e9diatement",
+                "statut": "En cours d'examen",
+                "reponse": ""
+            }
+        ]
+    ]
+}

@@ -1,0 +1,356 @@
+{
+    "partenariats_commerciaux": [
+        [
+            {
+                "id": 1,
+                "nom_partenaire": "BMCE Bank",
+                "domaine_activite": "Services financiers",
+                "benefices": "croissance des actifs",
+                "date_debut": "2020-05-12"
+            },
+            {
+                "id": 2,
+                "nom_partenaire": "Attijariwafa Bank",
+                "domaine_activite": "Services bancaires",
+                "benefices": "augmentation des revenus",
+                "date_debut": "2019-11-27"
+            },
+            {
+                "id": 3,
+                "nom_partenaire": "Maroc Telecom",
+                "domaine_activite": "T\u00e9l\u00e9communications",
+                "benefices": "distribution des services",
+                "date_debut": "2018-03-08"
+            },
+            {
+                "id": 4,
+                "nom_partenaire": "ONCF",
+                "domaine_activite": "Transports",
+                "benefices": "acc\u00e8s aux services bancaires",
+                "date_debut": "2017-06-14"
+            },
+            {
+                "id": 5,
+                "nom_partenaire": "Office National de l'\u00c9lectricit\u00e9 et de l'Eau Potable (ONEE)",
+                "domaine_activite": "\u00c9nergie",
+                "benefices": "paiement des factures en ligne",
+                "date_debut": "2016-09-30"
+            },
+            {
+                "id": 6,
+                "nom_partenaire": "Enactus Maroc",
+                "domaine_activite": "Entreprenariat social",
+                "benefices": "accompagnement des jeunes entrepreneurs",
+                "date_debut": "2021-02-19"
+            },
+            {
+                "id": 7,
+                "nom_partenaire": "Coca-Cola Maroc",
+                "domaine_activite": "Boissons",
+                "benefices": "programmes de fid\u00e9lisation",
+                "date_debut": "2015-04-22"
+            },
+            {
+                "id": 8,
+                "nom_partenaire": "H\u00f4tel Marrakech",
+                "domaine_activite": "Tourisme",
+                "benefices": "offres exclusives aux clients de la banque",
+                "date_debut": "2014-10-11"
+            },
+            {
+                "id": 9,
+                "nom_partenaire": "Carrefour Maroc",
+                "domaine_activite": "Distribution",
+                "benefices": "carte de fid\u00e9lit\u00e9 commune",
+                "date_debut": "2013-12-05"
+            },
+            {
+                "id": 10,
+                "nom_partenaire": "Universit\u00e9 Cadi Ayyad",
+                "domaine_activite": "Enseignement sup\u00e9rieur",
+                "benefices": "r\u00e9ductions pour les \u00e9tudiants",
+                "date_debut": "2012-08-18"
+            },
+            {
+                "id": 11,
+                "nom_partenaire": "Association Lalla Salma de lutte contre le cancer",
+                "domaine_activite": "Sant\u00e9",
+                "benefices": "campagnes de sensibilisation",
+                "date_debut": "2011-11-30"
+            },
+            {
+                "id": 12,
+                "nom_partenaire": "Atlas Voyages",
+                "domaine_activite": "Agence de voyages",
+                "benefices": "r\u00e9servation de billets en ligne",
+                "date_debut": "2010-03-17"
+            },
+            {
+                "id": 13,
+                "nom_partenaire": "Renault Maroc",
+                "domaine_activite": "Automobile",
+                "benefices": "financement de voitures",
+                "date_debut": "2009-05-21"
+            },
+            {
+                "id": 14,
+                "nom_partenaire": "Lydec",
+                "domaine_activite": "Eau et assainissement",
+                "benefices": "paiement des factures",
+                "date_debut": "2008-09-28"
+            },
+            {
+                "id": 15,
+                "nom_partenaire": "McDonald's Maroc",
+                "domaine_activite": "Restauration rapide",
+                "benefices": "offres sp\u00e9ciales pour les clients de la banque",
+                "date_debut": "2007-11-14"
+            },
+            {
+                "id": 16,
+                "nom_partenaire": "Yan & One",
+                "domaine_activite": "Parfumerie et cosm\u00e9tique",
+                "benefices": "remises exclusives",
+                "date_debut": "2006-06-02"
+            },
+            {
+                "id": 17,
+                "nom_partenaire": "BestMark",
+                "domaine_activite": "Marketing",
+                "benefices": "\u00e9tudes de march\u00e9 conjointes",
+                "date_debut": "2005-04-30"
+            },
+            {
+                "id": 18,
+                "nom_partenaire": "SAP Maroc",
+                "domaine_activite": "Technologie de l'information",
+                "benefices": "solutions de gestion innovantes",
+                "date_debut": "2004-12-19"
+            },
+            {
+                "id": 19,
+                "nom_partenaire": "Royal Air Maroc",
+                "domaine_activite": "Transport a\u00e9rien",
+                "benefices": "r\u00e9ductions sur les billets d'avion",
+                "date_debut": "2003-08-08"
+            },
+            {
+                "id": 20,
+                "nom_partenaire": "A\u00e9roport de Marrakech-Menara",
+                "domaine_activite": "Gestion a\u00e9roportuaire",
+                "benefices": "service VIP pour les clients de la banque",
+                "date_debut": "2002-07-24"
+            },
+            {
+                "id": 21,
+                "nom_partenaire": "Association Bayti",
+                "domaine_activite": "Action sociale",
+                "benefices": "soutien aux enfants d\u00e9favoris\u00e9s",
+                "date_debut": "2001-06-05"
+            },
+            {
+                "id": 22,
+                "nom_partenaire": "Danone Maroc",
+                "domaine_activite": "Alimentation et nutrition",
+                "benefices": "promotion de l'alimentation saine",
+                "date_debut": "2000-05-19"
+            },
+            {
+                "id": 23,
+                "nom_partenaire": "P&G Maroc",
+                "domaine_activite": "Biens de consommation",
+                "benefices": "remises sur les produits",
+                "date_debut": "1999-03-14"
+            },
+            {
+                "id": 24,
+                "nom_partenaire": "Association SOS Villages d'Enfants Maroc",
+                "domaine_activite": "Enfance et protection sociale",
+                "benefices": "parrainage d'enfants",
+                "date_debut": "1998-01-20"
+            },
+            {
+                "id": 25,
+                "nom_partenaire": "L'Or\u00e9al Maroc",
+                "domaine_activite": "Produits de beaut\u00e9",
+                "benefices": "ateliers de beaut\u00e9 gratuits",
+                "date_debut": "1997-12-02"
+            },
+            {
+                "id": 26,
+                "nom_partenaire": "Association TIBU Maroc",
+                "domaine_activite": "Jeunesse et sport",
+                "benefices": "programmes sportifs pour les jeunes",
+                "date_debut": "1996-11-08"
+            },
+            {
+                "id": 27,
+                "nom_partenaire": "Lalla Zoubida",
+                "domaine_activite": "Cuisine marocaine",
+                "benefices": "initiation \u00e0 la cuisine traditionnelle",
+                "date_debut": "1995-10-15"
+            },
+            {
+                "id": 28,
+                "nom_partenaire": "Injaz Al-Maghrib",
+                "domaine_activite": "\u00c9ducation entrepreneuriale",
+                "benefices": "formation \u00e0 l'entrepreneuriat",
+                "date_debut": "1994-08-27"
+            },
+            {
+                "id": 29,
+                "nom_partenaire": "Maison de la Photographie de Marrakech",
+                "domaine_activite": "Culture et patrimoine",
+                "benefices": "expositions photographiques exclusives",
+                "date_debut": "1993-06-10"
+            },
+            {
+                "id": 30,
+                "nom_partenaire": "Association L'Heure Joyeuse Maroc",
+                "domaine_activite": "Culture et \u00e9ducation des enfants",
+                "benefices": "animations pour enfants",
+                "date_debut": "1992-09-18"
+            },
+            {
+                "id": 31,
+                "nom_partenaire": "Association Dar Si Hmad pour l'\u00e9ducation et la culture",
+                "domaine_activite": "Culture amazighe",
+                "benefices": "promotion de la culture berb\u00e8re",
+                "date_debut": "1991-07-25"
+            },
+            {
+                "id": 32,
+                "nom_partenaire": "Association Amis des mus\u00e9es de Marrakech",
+                "domaine_activite": "Promotion culturelle",
+                "benefices": "visites guid\u00e9es gratuites",
+                "date_debut": "1990-03-01"
+            },
+            {
+                "id": 33,
+                "nom_partenaire": "Festival International du Film de Marrakech",
+                "domaine_activite": "Cin\u00e9ma",
+                "benefices": "s\u00e9ances VIP pour les clients de la banque",
+                "date_debut": "1989-11-11"
+            },
+            {
+                "id": 34,
+                "nom_partenaire": "Maison de la Po\u00e9sie de Marrakech",
+                "domaine_activite": "Litt\u00e9rature",
+                "benefices": "ateliers de po\u00e9sie",
+                "date_debut": "1988-02-05"
+            },
+            {
+                "id": 35,
+                "nom_partenaire": "Association Racines",
+                "domaine_activite": "Patrimoine culturel",
+                "benefices": "sauvegarde du patrimoine marocain",
+                "date_debut": "1987-10-30"
+            },
+            {
+                "id": 36,
+                "nom_partenaire": "Festival Gnaoua et Musiques du Monde",
+                "domaine_activite": "Musique",
+                "benefices": "acc\u00e8s exclusif aux concerts",
+                "date_debut": "1986-06-17"
+            },
+            {
+                "id": 37,
+                "nom_partenaire": "Morocco Mall",
+                "domaine_activite": "Centre commercial",
+                "benefices": "carte de fid\u00e9lit\u00e9 sp\u00e9ciale",
+                "date_debut": "1985-08-23"
+            },
+            {
+                "id": 38,
+                "nom_partenaire": "Jardin Majorelle",
+                "domaine_activite": "Art et botanique",
+                "benefices": "tarifs r\u00e9duits pour les clients de la banque",
+                "date_debut": "1984-12-01"
+            },
+            {
+                "id": 39,
+                "nom_partenaire": "Institut Fran\u00e7ais de Marrakech",
+                "domaine_activite": "Culture fran\u00e7aise",
+                "benefices": "cours de fran\u00e7ais gratuits",
+                "date_debut": "1983-04-11"
+            },
+            {
+                "id": 40,
+                "nom_partenaire": "Centre Cin\u00e9matographique Marocain",
+                "domaine_activite": "Cin\u00e9ma national",
+                "benefices": "avant-premi\u00e8res et projections exclusives",
+                "date_debut": "1982-07-19"
+            },
+            {
+                "id": 41,
+                "nom_partenaire": "Association Argania Maroc",
+                "domaine_activite": "Environnement et d\u00e9veloppement durable",
+                "benefices": "initiatives \u00e9cologiques",
+                "date_debut": "1981-11-30"
+            },
+            {
+                "id": 42,
+                "nom_partenaire": "Mus\u00e9e Yves Saint Laurent Marrakech",
+                "domaine_activite": "Mode et design",
+                "benefices": "expositions priv\u00e9es pour les clients de la banque",
+                "date_debut": "1980-09-12"
+            },
+            {
+                "id": 43,
+                "nom_partenaire": "Association Tamount",
+                "domaine_activite": "D\u00e9veloppement local",
+                "benefices": "projets communautaires",
+                "date_debut": "1979-08-04"
+            },
+            {
+                "id": 44,
+                "nom_partenaire": "Maison de la Terre",
+                "domaine_activite": "\u00c9cologie",
+                "benefices": "ateliers de sensibilisation \u00e0 l'environnement",
+                "date_debut": "1978-10-21"
+            },
+            {
+                "id": 45,
+                "nom_partenaire": "Association Essaouira-Mogador",
+                "domaine_activite": "Patrimoine et culture marocaine",
+                "benefices": "pr\u00e9servation du patrimoine d'Essaouira",
+                "date_debut": "1977-06-08"
+            },
+            {
+                "id": 46,
+                "nom_partenaire": "Dar Bellarj",
+                "domaine_activite": "Artisanat et culture",
+                "benefices": "promotions sur l'artisanat local",
+                "date_debut": "1976-05-29"
+            },
+            {
+                "id": 47,
+                "nom_partenaire": "Amal Association Marrakech",
+                "domaine_activite": "Formation professionnelle des femmes",
+                "benefices": "insertion professionnelle des femmes en difficult\u00e9",
+                "date_debut": "1975-03-17"
+            },
+            {
+                "id": 48,
+                "nom_partenaire": "Espace Culturel Douiria",
+                "domaine_activite": "Espace culturel",
+                "benefices": "activit\u00e9s culturelles gratuites",
+                "date_debut": "1974-08-09"
+            },
+            {
+                "id": 49,
+                "nom_partenaire": "Association Racine des Arts",
+                "domaine_activite": "Arts plastiques",
+                "benefices": "ateliers d'art pour enfants",
+                "date_debut": "1973-12-27"
+            },
+            {
+                "id": 50,
+                "nom_partenaire": "Festival des Arts Populaires de Marrakech",
+                "domaine_activite": "Culture populaire",
+                "benefices": "workshops artistiques pour les habitants",
+                "date_debut": "1972-11-18"
+            }
+        ]
+    ]
+}

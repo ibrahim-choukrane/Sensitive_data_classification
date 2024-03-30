@@ -1,0 +1,306 @@
+{
+    "responsable_comptes": [
+        [
+            {
+                "id": 1,
+                "nom": "El Amrani",
+                "prenom": "Fatima",
+                "email": "f.elamrani@bcp.ma"
+            },
+            {
+                "id": 2,
+                "nom": "Hassani",
+                "prenom": "Karim",
+                "email": "k.hassani@bcp.ma"
+            },
+            {
+                "id": 3,
+                "nom": "Benslimane",
+                "prenom": "Nadia",
+                "email": "n.benslimane@bcp.ma"
+            },
+            {
+                "id": 4,
+                "nom": "Ait Hkim",
+                "prenom": "Said",
+                "email": "s.aitkhim@bcp.ma"
+            },
+            {
+                "id": 5,
+                "nom": "El Fassi",
+                "prenom": "Fatima Zahra",
+                "email": "fz.elfassi@bcp.ma"
+            },
+            {
+                "id": 6,
+                "nom": "Mahjoub",
+                "prenom": "Younes",
+                "email": "y.mahjoub@bcp.ma"
+            },
+            {
+                "id": 7,
+                "nom": "Benjelloun",
+                "prenom": "Leila",
+                "email": "l.benjelloun@bcp.ma"
+            },
+            {
+                "id": 8,
+                "nom": "Sahli",
+                "prenom": "Ahmed",
+                "email": "a.sahli@bcp.ma"
+            },
+            {
+                "id": 9,
+                "nom": "Laaroussi",
+                "prenom": "Khadija",
+                "email": "k.laaroussi@bcp.ma"
+            },
+            {
+                "id": 10,
+                "nom": "Bouchikhi",
+                "prenom": "Yassine",
+                "email": "y.bouchikhi@bcp.ma"
+            },
+            {
+                "id": 11,
+                "nom": "Tazi",
+                "prenom": "Dounia",
+                "email": "d.tazi@bcp.ma"
+            },
+            {
+                "id": 12,
+                "nom": "Kadiri",
+                "prenom": "Mounia",
+                "email": "m.kadiri@bcp.ma"
+            },
+            {
+                "id": 13,
+                "nom": "Moussaoui",
+                "prenom": "Youssef",
+                "email": "y.moussaoui@bcp.ma"
+            },
+            {
+                "id": 14,
+                "nom": "Ouazzani",
+                "prenom": "Imad",
+                "email": "i.ouazzani@bcp.ma"
+            },
+            {
+                "id": 15,
+                "nom": "Chakir",
+                "prenom": "Zineb",
+                "email": "z.chakir@bcp.ma"
+            },
+            {
+                "id": 16,
+                "nom": "Idrissi",
+                "prenom": "Hakim",
+                "email": "h.idrissi@bcp.ma"
+            },
+            {
+                "id": 17,
+                "nom": "Bennani",
+                "prenom": "Yasmine",
+                "email": "y.bennani@bcp.ma"
+            },
+            {
+                "id": 18,
+                "nom": "El Khattabi",
+                "prenom": "Nawal",
+                "email": "n.elkhattabi@bcp.ma"
+            },
+            {
+                "id": 19,
+                "nom": "Zerouali",
+                "prenom": "Yassir",
+                "email": "y.zerouali@bcp.ma"
+            },
+            {
+                "id": 20,
+                "nom": "Baroudi",
+                "prenom": "Anas",
+                "email": "a.baroudi@bcp.ma"
+            },
+            {
+                "id": 21,
+                "nom": "El Haddioui",
+                "prenom": "Fatima Ezzahra",
+                "email": "f.ez.elhaddioui@bcp.ma"
+            },
+            {
+                "id": 22,
+                "nom": "Rafiq",
+                "prenom": "Ali",
+                "email": "a.rafiq@bcp.ma"
+            },
+            {
+                "id": 23,
+                "nom": "Boukhari",
+                "prenom": "Samira",
+                "email": "s.boukhari@bcp.ma"
+            },
+            {
+                "id": 24,
+                "nom": "Mansouri",
+                "prenom": "Younes",
+                "email": "y.mansouri@bcp.ma"
+            },
+            {
+                "id": 25,
+                "nom": "Benmokhtar",
+                "prenom": "Houda",
+                "email": "h.benmokhtar@bcp.ma"
+            },
+            {
+                "id": 26,
+                "nom": "Faraji",
+                "prenom": "Nabil",
+                "email": "n.faraji@bcp.ma"
+            },
+            {
+                "id": 27,
+                "nom": "El Ghazouani",
+                "prenom": "Abdelaziz",
+                "email": "a.elghazouani@bcp.ma"
+            },
+            {
+                "id": 28,
+                "nom": "Ouadi",
+                "prenom": "Kawtar",
+                "email": "k.ouadi@bcp.ma"
+            },
+            {
+                "id": 29,
+                "nom": "Bellali",
+                "prenom": "Hassan",
+                "email": "h.bellali@bcp.ma"
+            },
+            {
+                "id": 30,
+                "nom": "Sebbar",
+                "prenom": "Nadia",
+                "email": "n.sebbar@bcp.ma"
+            },
+            {
+                "id": 31,
+                "nom": "Nassiri",
+                "prenom": "Ilyas",
+                "email": "i.nassiri@bcp.ma"
+            },
+            {
+                "id": 32,
+                "nom": "Benjelloun",
+                "prenom": "Rita",
+                "email": "r.benjelloun@bcp.ma"
+            },
+            {
+                "id": 33,
+                "nom": "El Kaddouri",
+                "prenom": "Mohamed",
+                "email": "m.elkaddouri@bcp.ma"
+            },
+            {
+                "id": 34,
+                "nom": "Abouzaid",
+                "prenom": "Nawfal",
+                "email": "n.abouzaid@bcp.ma"
+            },
+            {
+                "id": 35,
+                "nom": "Lahrichi",
+                "prenom": "Amal",
+                "email": "a.lahrichi@bcp.ma"
+            },
+            {
+                "id": 36,
+                "nom": "Bannani",
+                "prenom": "Omar",
+                "email": "o.bannani@bcp.ma"
+            },
+            {
+                "id": 37,
+                "nom": "El Azhari",
+                "prenom": "Loubna",
+                "email": "l.elazhari@bcp.ma"
+            },
+            {
+                "id": 38,
+                "nom": "El Makrini",
+                "prenom": "Yassine",
+                "email": "y.elmakrini@bcp.ma"
+            },
+            {
+                "id": 39,
+                "nom": "Aarab",
+                "prenom": "Sara",
+                "email": "s.aarab@bcp.ma"
+            },
+            {
+                "id": 40,
+                "nom": "Ben Abdelkader",
+                "prenom": "Amine",
+                "email": "a.benabdelkader@bcp.ma"
+            },
+            {
+                "id": 41,
+                "nom": "Bensouda",
+                "prenom": "Meryem",
+                "email": "m.bensouda@bcp.ma"
+            },
+            {
+                "id": 42,
+                "nom": "Chaoui",
+                "prenom": "Brahim",
+                "email": "b.chaoui@bcp.ma"
+            },
+            {
+                "id": 43,
+                "nom": "Taouji",
+                "prenom": "Ibtissam",
+                "email": "i.taouji@bcp.ma"
+            },
+            {
+                "id": 44,
+                "nom": "Kahlaoui",
+                "prenom": "Anas",
+                "email": "a.kahlaoui@bcp.ma"
+            },
+            {
+                "id": 45,
+                "nom": "Hamidi",
+                "prenom": "Fatima Zahra",
+                "email": "fz.hamidi@bcp.ma"
+            },
+            {
+                "id": 46,
+                "nom": "Sebbane",
+                "prenom": "Mustapha",
+                "email": "m.sebbane@bcp.ma"
+            },
+            {
+                "id": 47,
+                "nom": "Fakir",
+                "prenom": "Chaimaa",
+                "email": "c.fakir@bcp.ma"
+            },
+            {
+                "id": 48,
+                "nom": "Ksiyer",
+                "prenom": "Hakim",
+                "email": "h.ksiyer@bcp.ma"
+            },
+            {
+                "id": 49,
+                "nom": "Joumani",
+                "prenom": "Salma",
+                "email": "s.joumani@bcp.ma"
+            },
+            {
+                "id": 50,
+                "nom": "Bentaleb",
+                "prenom": "Oumaima",
+                "email": "o.bentaleb@bcp.ma"
+            }
+        ]
+    ]
+}

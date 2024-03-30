@@ -1,0 +1,356 @@
+{
+    "transactions_interbancaires": [
+        [
+            {
+                "id": 1,
+                "banque_emetrice": "Banque Populaire",
+                "banque_destinatrice": "BMCE Bank",
+                "montant": 15000.25,
+                "date_transaction": "2022-03-05"
+            },
+            {
+                "id": 2,
+                "banque_emetrice": "Attijariwafa Bank",
+                "banque_destinatrice": "Cr\u00e9dit Agricole",
+                "montant": 8000.5,
+                "date_transaction": "2022-02-17"
+            },
+            {
+                "id": 3,
+                "banque_emetrice": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+                "banque_destinatrice": "CIH Bank",
+                "montant": 12000.75,
+                "date_transaction": "2022-01-20"
+            },
+            {
+                "id": 4,
+                "banque_emetrice": "Banque Marocaine du Commerce Ext\u00e9rieur",
+                "banque_destinatrice": "Al Barid Bank",
+                "montant": 3500.8,
+                "date_transaction": "2022-04-30"
+            },
+            {
+                "id": 5,
+                "banque_emetrice": "Cr\u00e9dit du Maroc",
+                "banque_destinatrice": "Banque Centrale Populaire",
+                "montant": 10000.0,
+                "date_transaction": "2022-03-10"
+            },
+            {
+                "id": 6,
+                "banque_emetrice": "Bank of Africa",
+                "banque_destinatrice": "Attijariwafa Bank",
+                "montant": 6000.3,
+                "date_transaction": "2022-05-02"
+            },
+            {
+                "id": 7,
+                "banque_emetrice": "Cr\u00e9dit Agricole",
+                "banque_destinatrice": "BMCE Bank",
+                "montant": 9500.6,
+                "date_transaction": "2022-02-28"
+            },
+            {
+                "id": 8,
+                "banque_emetrice": "CIH Bank",
+                "banque_destinatrice": "Banque Marocaine du Commerce Ext\u00e9rieur",
+                "montant": 8700.4,
+                "date_transaction": "2022-01-15"
+            },
+            {
+                "id": 9,
+                "banque_emetrice": "Al Barid Bank",
+                "banque_destinatrice": "Bank of Africa",
+                "montant": 4300.2,
+                "date_transaction": "2022-04-09"
+            },
+            {
+                "id": 10,
+                "banque_emetrice": "Banque Centrale Populaire",
+                "banque_destinatrice": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+                "montant": 7500.7,
+                "date_transaction": "2022-06-25"
+            },
+            {
+                "id": 11,
+                "banque_emetrice": "BMCE Bank",
+                "banque_destinatrice": "Cr\u00e9dit du Maroc",
+                "montant": 6600.35,
+                "date_transaction": "2022-02-04"
+            },
+            {
+                "id": 12,
+                "banque_emetrice": "Banque Populaire",
+                "banque_destinatrice": "Attijariwafa Bank",
+                "montant": 5100.9,
+                "date_transaction": "2022-07-18"
+            },
+            {
+                "id": 13,
+                "banque_emetrice": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+                "banque_destinatrice": "Banque Marocaine du Commerce Ext\u00e9rieur",
+                "montant": 3000.45,
+                "date_transaction": "2022-06-10"
+            },
+            {
+                "id": 14,
+                "banque_emetrice": "Bank of Africa",
+                "banque_destinatrice": "Banque Centrale Populaire",
+                "montant": 4200.75,
+                "date_transaction": "2022-08-21"
+            },
+            {
+                "id": 15,
+                "banque_emetrice": "Al Barid Bank",
+                "banque_destinatrice": "Cr\u00e9dit Agricole",
+                "montant": 8800.85,
+                "date_transaction": "2022-07-01"
+            },
+            {
+                "id": 16,
+                "banque_emetrice": "Cr\u00e9dit Agricole",
+                "banque_destinatrice": "CIH Bank",
+                "montant": 9300.4,
+                "date_transaction": "2022-03-14"
+            },
+            {
+                "id": 17,
+                "banque_emetrice": "CIH Bank",
+                "banque_destinatrice": "BMCE Bank",
+                "montant": 6400.6,
+                "date_transaction": "2022-08-05"
+            },
+            {
+                "id": 18,
+                "banque_emetrice": "Banque Marocaine du Commerce Ext\u00e9rieur",
+                "banque_destinatrice": "Cr\u00e9dit du Maroc",
+                "montant": 4500.2,
+                "date_transaction": "2022-09-11"
+            },
+            {
+                "id": 19,
+                "banque_emetrice": "Banque Centrale Populaire",
+                "banque_destinatrice": "Attijariwafa Bank",
+                "montant": 7000.3,
+                "date_transaction": "2022-10-02"
+            },
+            {
+                "id": 20,
+                "banque_emetrice": "BMCE Bank",
+                "banque_destinatrice": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+                "montant": 5900.75,
+                "date_transaction": "2022-04-19"
+            },
+            {
+                "id": 21,
+                "banque_emetrice": "Banque Populaire",
+                "banque_destinatrice": "Bank of Africa",
+                "montant": 3800.9,
+                "date_transaction": "2022-11-14"
+            },
+            {
+                "id": 22,
+                "banque_emetrice": "Attijariwafa Bank",
+                "banque_destinatrice": "Banque Centrale Populaire",
+                "montant": 4900.45,
+                "date_transaction": "2022-12-27"
+            },
+            {
+                "id": 23,
+                "banque_emetrice": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+                "banque_destinatrice": "Al Barid Bank",
+                "montant": 2700.55,
+                "date_transaction": "2022-11-03"
+            },
+            {
+                "id": 24,
+                "banque_emetrice": "Banque Marocaine du Commerce Ext\u00e9rieur",
+                "banque_destinatrice": "Cr\u00e9dit Agricole",
+                "montant": 5200.6,
+                "date_transaction": "2022-09-29"
+            },
+            {
+                "id": 25,
+                "banque_emetrice": "Cr\u00e9dit du Maroc",
+                "banque_destinatrice": "CIH Bank",
+                "montant": 3000.7,
+                "date_transaction": "2022-07-22"
+            },
+            {
+                "id": 26,
+                "banque_emetrice": "Bank of Africa",
+                "banque_destinatrice": "BMCE Bank",
+                "montant": 6700.8,
+                "date_transaction": "2022-12-15"
+            },
+            {
+                "id": 27,
+                "banque_emetrice": "Al Barid Bank",
+                "banque_destinatrice": "Banque Populaire",
+                "montant": 8400.95,
+                "date_transaction": "2022-10-18"
+            },
+            {
+                "id": 28,
+                "banque_emetrice": "Cr\u00e9dit Agricole",
+                "banque_destinatrice": "Banque Centrale Populaire",
+                "montant": 7900.2,
+                "date_transaction": "2022-06-07"
+            },
+            {
+                "id": 29,
+                "banque_emetrice": "CIH Bank",
+                "banque_destinatrice": "Attijariwafa Bank",
+                "montant": 5400.3,
+                "date_transaction": "2022-02-24"
+            },
+            {
+                "id": 30,
+                "banque_emetrice": "Banque Marocaine du Commerce Ext\u00e9rieur",
+                "banque_destinatrice": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+                "montant": 3400.4,
+                "date_transaction": "2022-01-30"
+            },
+            {
+                "id": 31,
+                "banque_emetrice": "Banque Centrale Populaire",
+                "banque_destinatrice": "Bank of Africa",
+                "montant": 4700.5,
+                "date_transaction": "2022-05-05"
+            },
+            {
+                "id": 32,
+                "banque_emetrice": "BMCE Bank",
+                "banque_destinatrice": "Banque Populaire",
+                "montant": 6300.6,
+                "date_transaction": "2022-03-12"
+            },
+            {
+                "id": 33,
+                "banque_emetrice": "Banque Populaire",
+                "banque_destinatrice": "Banque Marocaine du Commerce Ext\u00e9rieur",
+                "montant": 8500.7,
+                "date_transaction": "2022-08-02"
+            },
+            {
+                "id": 34,
+                "banque_emetrice": "Attijariwafa Bank",
+                "banque_destinatrice": "Cr\u00e9dit du Maroc",
+                "montant": 4700.8,
+                "date_transaction": "2022-11-25"
+            },
+            {
+                "id": 35,
+                "banque_emetrice": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+                "banque_destinatrice": "Bank of Africa",
+                "montant": 5600.9,
+                "date_transaction": "2022-09-18"
+            },
+            {
+                "id": 36,
+                "banque_emetrice": "Al Barid Bank",
+                "banque_destinatrice": "Banque Centrale Populaire",
+                "montant": 3200.2,
+                "date_transaction": "2022-12-04"
+            },
+            {
+                "id": 37,
+                "banque_emetrice": "Cr\u00e9dit Agricole",
+                "banque_destinatrice": "BMCE Bank",
+                "montant": 7300.35,
+                "date_transaction": "2022-07-31"
+            },
+            {
+                "id": 38,
+                "banque_emetrice": "CIH Bank",
+                "banque_destinatrice": "Banque Populaire",
+                "montant": 4100.45,
+                "date_transaction": "2022-06-24"
+            },
+            {
+                "id": 39,
+                "banque_emetrice": "Banque Marocaine du Commerce Ext\u00e9rieur",
+                "banque_destinatrice": "Attijariwafa Bank",
+                "montant": 5900.6,
+                "date_transaction": "2022-04-11"
+            },
+            {
+                "id": 40,
+                "banque_emetrice": "Banque Centrale Populaire",
+                "banque_destinatrice": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+                "montant": 7800.75,
+                "date_transaction": "2022-01-02"
+            },
+            {
+                "id": 41,
+                "banque_emetrice": "BMCE Bank",
+                "banque_destinatrice": "Al Barid Bank",
+                "montant": 3600.8,
+                "date_transaction": "2022-10-27"
+            },
+            {
+                "id": 42,
+                "banque_emetrice": "Banque Populaire",
+                "banque_destinatrice": "Cr\u00e9dit Agricole",
+                "montant": 4500.9,
+                "date_transaction": "2022-02-13"
+            },
+            {
+                "id": 43,
+                "banque_emetrice": "Attijariwafa Bank",
+                "banque_destinatrice": "CIH Bank",
+                "montant": 5100.2,
+                "date_transaction": "2022-05-21"
+            },
+            {
+                "id": 44,
+                "banque_emetrice": "Soci\u00e9t\u00e9 G\u00e9n\u00e9rale",
+                "banque_destinatrice": "Banque Marocaine du Commerce Ext\u00e9rieur",
+                "montant": 2700.3,
+                "date_transaction": "2022-03-08"
+            },
+            {
+                "id": 45,
+                "banque_emetrice": "Bank of Africa",
+                "banque_destinatrice": "Cr\u00e9dit du Maroc",
+                "montant": 3300.4,
+                "date_transaction": "2022-09-03"
+            },
+            {
+                "id": 46,
+                "banque_emetrice": "Al Barid Bank",
+                "banque_destinatrice": "CIH Bank",
+                "montant": 4200.5,
+                "date_transaction": "2022-11-28"
+            },
+            {
+                "id": 47,
+                "banque_emetrice": "Cr\u00e9dit Agricole",
+                "banque_destinatrice": "BMCE Bank",
+                "montant": 6400.6,
+                "date_transaction": "2022-08-14"
+            },
+            {
+                "id": 48,
+                "banque_emetrice": "CIH Bank",
+                "banque_destinatrice": "Bank of Africa",
+                "montant": 4700.7,
+                "date_transaction": "2022-12-09"
+            },
+            {
+                "id": 49,
+                "banque_emetrice": "Banque Marocaine du Commerce Ext\u00e9rieur",
+                "banque_destinatrice": "Banque Centrale Populaire",
+                "montant": 5100.8,
+                "date_transaction": "2022-06-16"
+            },
+            {
+                "id": 50,
+                "banque_emetrice": "Banque Centrale Populaire",
+                "banque_destinatrice": "BMCE Bank",
+                "montant": 4500.9,
+                "date_transaction": "2022-04-23"
+            }
+        ]
+    ]
+}

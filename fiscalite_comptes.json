@@ -1,0 +1,76 @@
+{
+    "fiscalite_comptes": [
+        [
+            {
+                "id": 1,
+                "type_avantage": "Exon\u00e9ration des frais de tenue de compte",
+                "taux_imposition": 0.0,
+                "date_application": "2020-01-01",
+                "description": "Les frais de tenue de compte sont exempt\u00e9s pour les comptes inactifs"
+            },
+            {
+                "id": 2,
+                "type_avantage": "R\u00e9duction des frais de virement",
+                "taux_imposition": 0.0,
+                "date_application": "2019-05-15",
+                "description": "Les frais de virement sont r\u00e9duits pour les virements vers des comptes du m\u00eame titulaire"
+            },
+            {
+                "id": 3,
+                "type_avantage": "Exon\u00e9ration de TVA sur les int\u00e9r\u00eats",
+                "taux_imposition": 0.0,
+                "date_application": "2021-03-10",
+                "description": "Les int\u00e9r\u00eats g\u00e9n\u00e9r\u00e9s sur le compte d'\u00e9pargne sont exon\u00e9r\u00e9s de TVA"
+            },
+            {
+                "id": 4,
+                "type_avantage": "R\u00e9duction des frais de retrait",
+                "taux_imposition": 0.0,
+                "date_application": "2018-11-20",
+                "description": "Les frais de retrait aux distributeurs sont r\u00e9duits pour les clients premium"
+            },
+            {
+                "id": 5,
+                "type_avantage": "D\u00e9duction des int\u00e9r\u00eats d'emprunt",
+                "taux_imposition": 0.0,
+                "date_application": "2017-09-03",
+                "description": "Les int\u00e9r\u00eats d'emprunt pour l'acquisition de la r\u00e9sidence principale sont d\u00e9ductibles d'imp\u00f4t"
+            },
+            {
+                "id": 6,
+                "type_avantage": "Avantage fid\u00e9lit\u00e9",
+                "taux_imposition": 0.0,
+                "date_application": "2019-08-12",
+                "description": "Une r\u00e9compense est offerte aux clients fid\u00e8les qui domicilient leurs revenus chez la banque"
+            },
+            {
+                "id": 7,
+                "type_avantage": "Exon\u00e9ration de frais de d\u00e9couvert",
+                "taux_imposition": 0.0,
+                "date_application": "2020-06-30",
+                "description": "Les frais li\u00e9s au d\u00e9couvert autoris\u00e9 sont exon\u00e9r\u00e9s pour les comptes avec des revenus r\u00e9guliers"
+            },
+            {
+                "id": 8,
+                "type_avantage": "R\u00e9duction des frais de tenue de compte",
+                "taux_imposition": 0.0,
+                "date_application": "2018-02-25",
+                "description": "Les frais de tenue de compte sont r\u00e9duits pour les \u00e9tudiants"
+            },
+            {
+                "id": 9,
+                "type_avantage": "Exemption des frais de cotisation",
+                "taux_imposition": 0.0,
+                "date_application": "2021-01-15",
+                "description": "Les frais de cotisation \u00e0 la carte bancaire sont exempt\u00e9s pour les clients premium"
+            },
+            {
+                "id": 10,
+                "type_avantage": "Taux privil\u00e9gi\u00e9 sur les pr\u00eats immobiliers",
+                "taux_imposition": 0.0,
+                "date_application": "2017-07-18",
+                "description": "Des conditions sp\u00e9ciales sont accord\u00e9es aux clients de la banque pour les pr\u00eats immobiliers"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,356 @@
+{
+    "produits_bancaires": [
+        [
+            {
+                "id": 1,
+                "nom_produit": "Compte Ch\u00e8que",
+                "taux_interet": 0.4,
+                "montant_minimum": 1000,
+                "duree_plafond": 0
+            },
+            {
+                "id": 2,
+                "nom_produit": "Epargne Enfant",
+                "taux_interet": 1.8,
+                "montant_minimum": 500,
+                "duree_plafond": 18
+            },
+            {
+                "id": 3,
+                "nom_produit": "Pr\u00eat Immobilier",
+                "taux_interet": 5.5,
+                "montant_minimum": 100000,
+                "duree_plafond": 360
+            },
+            {
+                "id": 4,
+                "nom_produit": "Carte Bancaire",
+                "taux_interet": 0.0,
+                "montant_minimum": 0,
+                "duree_plafond": 0
+            },
+            {
+                "id": 5,
+                "nom_produit": "Cr\u00e9dit Auto",
+                "taux_interet": 4.2,
+                "montant_minimum": 50000,
+                "duree_plafond": 72
+            },
+            {
+                "id": 6,
+                "nom_produit": "Assurance Vie",
+                "taux_interet": 2.5,
+                "montant_minimum": 10000,
+                "duree_plafond": 0
+            },
+            {
+                "id": 7,
+                "nom_produit": "Pr\u00eat Etudiant",
+                "taux_interet": 3.1,
+                "montant_minimum": 2000,
+                "duree_plafond": 120
+            },
+            {
+                "id": 8,
+                "nom_produit": "Compte \u00c9pargne",
+                "taux_interet": 2.0,
+                "montant_minimum": 200,
+                "duree_plafond": 0
+            },
+            {
+                "id": 9,
+                "nom_produit": "Pr\u00eat Personnel",
+                "taux_interet": 6.0,
+                "montant_minimum": 5000,
+                "duree_plafond": 60
+            },
+            {
+                "id": 10,
+                "nom_produit": "Carte Pr\u00e9pay\u00e9e",
+                "taux_interet": 0.0,
+                "montant_minimum": 0,
+                "duree_plafond": 0
+            },
+            {
+                "id": 11,
+                "nom_produit": "Cr\u00e9dit Renouvelable",
+                "taux_interet": 12.5,
+                "montant_minimum": 3000,
+                "duree_plafond": 36
+            },
+            {
+                "id": 12,
+                "nom_produit": "Plan Retraite",
+                "taux_interet": 3.8,
+                "montant_minimum": 100,
+                "duree_plafond": 0
+            },
+            {
+                "id": 13,
+                "nom_produit": "Pr\u00eat Personnel \u00c9tudes",
+                "taux_interet": 4.9,
+                "montant_minimum": 10000,
+                "duree_plafond": 84
+            },
+            {
+                "id": 14,
+                "nom_produit": "Compte Jeune",
+                "taux_interet": 1.2,
+                "montant_minimum": 50,
+                "duree_plafond": 0
+            },
+            {
+                "id": 15,
+                "nom_produit": "Cr\u00e9dit Travaux",
+                "taux_interet": 4.7,
+                "montant_minimum": 20000,
+                "duree_plafond": 60
+            },
+            {
+                "id": 16,
+                "nom_produit": "Compte Joint",
+                "taux_interet": 0.5,
+                "montant_minimum": 500,
+                "duree_plafond": 0
+            },
+            {
+                "id": 17,
+                "nom_produit": "Assurance Sant\u00e9",
+                "taux_interet": 1.5,
+                "montant_minimum": 2500,
+                "duree_plafond": 0
+            },
+            {
+                "id": 18,
+                "nom_produit": "Cr\u00e9dit Mariage",
+                "taux_interet": 7.2,
+                "montant_minimum": 15000,
+                "duree_plafond": 48
+            },
+            {
+                "id": 19,
+                "nom_produit": "Assurance Habitation",
+                "taux_interet": 1.9,
+                "montant_minimum": 1000,
+                "duree_plafond": 0
+            },
+            {
+                "id": 20,
+                "nom_produit": "Banque \u00e0 Distance",
+                "taux_interet": 0.0,
+                "montant_minimum": 0,
+                "duree_plafond": 0
+            },
+            {
+                "id": 21,
+                "nom_produit": "Cr\u00e9dit \u00c9quipement",
+                "taux_interet": 5.4,
+                "montant_minimum": 10000,
+                "duree_plafond": 72
+            },
+            {
+                "id": 22,
+                "nom_produit": "Assurance Voiture",
+                "taux_interet": 3.0,
+                "montant_minimum": 1500,
+                "duree_plafond": 0
+            },
+            {
+                "id": 23,
+                "nom_produit": "Pr\u00eat Agricole",
+                "taux_interet": 4.1,
+                "montant_minimum": 20000,
+                "duree_plafond": 120
+            },
+            {
+                "id": 24,
+                "nom_produit": "Pr\u00eat Hypoth\u00e9caire",
+                "taux_interet": 5.8,
+                "montant_minimum": 50000,
+                "duree_plafond": 360
+            },
+            {
+                "id": 25,
+                "nom_produit": "Assurance D\u00e9c\u00e8s",
+                "taux_interet": 2.2,
+                "montant_minimum": 5000,
+                "duree_plafond": 0
+            },
+            {
+                "id": 26,
+                "nom_produit": "Cr\u00e9dit Voyage",
+                "taux_interet": 6.5,
+                "montant_minimum": 3000,
+                "duree_plafond": 36
+            },
+            {
+                "id": 27,
+                "nom_produit": "Compte Professionnel",
+                "taux_interet": 0.0,
+                "montant_minimum": 0,
+                "duree_plafond": 0
+            },
+            {
+                "id": 28,
+                "nom_produit": "Gestion de Patrimoine",
+                "taux_interet": 0.0,
+                "montant_minimum": 0,
+                "duree_plafond": 0
+            },
+            {
+                "id": 29,
+                "nom_produit": "Cr\u00e9dit Energies Renouvelables",
+                "taux_interet": 3.8,
+                "montant_minimum": 5000,
+                "duree_plafond": 84
+            },
+            {
+                "id": 30,
+                "nom_produit": "Assurance Voyage",
+                "taux_interet": 2.5,
+                "montant_minimum": 1000,
+                "duree_plafond": 0
+            },
+            {
+                "id": 31,
+                "nom_produit": "Pr\u00eat Auto",
+                "taux_interet": 4.0,
+                "montant_minimum": 15000,
+                "duree_plafond": 60
+            },
+            {
+                "id": 32,
+                "nom_produit": "Assurance Retraite",
+                "taux_interet": 1.7,
+                "montant_minimum": 2000,
+                "duree_plafond": 0
+            },
+            {
+                "id": 33,
+                "nom_produit": "Cr\u00e9dit Professionnel",
+                "taux_interet": 5.2,
+                "montant_minimum": 25000,
+                "duree_plafond": 72
+            },
+            {
+                "id": 34,
+                "nom_produit": "Assurance \u00c9ducation",
+                "taux_interet": 1.9,
+                "montant_minimum": 500,
+                "duree_plafond": 0
+            },
+            {
+                "id": 35,
+                "nom_produit": "Compte D\u00e9couverte",
+                "taux_interet": 1.0,
+                "montant_minimum": 300,
+                "duree_plafond": 0
+            },
+            {
+                "id": 36,
+                "nom_produit": "Cr\u00e9dit Particulier",
+                "taux_interet": 6.8,
+                "montant_minimum": 5000,
+                "duree_plafond": 36
+            },
+            {
+                "id": 37,
+                "nom_produit": "Assurance Pr\u00eat",
+                "taux_interet": 2.3,
+                "montant_minimum": 10000,
+                "duree_plafond": 0
+            },
+            {
+                "id": 38,
+                "nom_produit": "Pr\u00eat Consolidation",
+                "taux_interet": 7.5,
+                "montant_minimum": 10000,
+                "duree_plafond": 60
+            },
+            {
+                "id": 39,
+                "nom_produit": "Assurance Maladie",
+                "taux_interet": 2.8,
+                "montant_minimum": 1500,
+                "duree_plafond": 0
+            },
+            {
+                "id": 40,
+                "nom_produit": "Cr\u00e9dit Cours",
+                "taux_interet": 5.0,
+                "montant_minimum": 2000,
+                "duree_plafond": 48
+            },
+            {
+                "id": 41,
+                "nom_produit": "Assurance Compl\u00e9mentaire Sant\u00e9",
+                "taux_interet": 2.1,
+                "montant_minimum": 800,
+                "duree_plafond": 0
+            },
+            {
+                "id": 42,
+                "nom_produit": "Pr\u00eat Personnels Vacances",
+                "taux_interet": 6.2,
+                "montant_minimum": 3000,
+                "duree_plafond": 36
+            },
+            {
+                "id": 43,
+                "nom_produit": "Compte Entreprise",
+                "taux_interet": 0.0,
+                "montant_minimum": 0,
+                "duree_plafond": 0
+            },
+            {
+                "id": 44,
+                "nom_produit": "Assurance Incapacit\u00e9 Travail",
+                "taux_interet": 1.4,
+                "montant_minimum": 2500,
+                "duree_plafond": 0
+            },
+            {
+                "id": 45,
+                "nom_produit": "Cr\u00e9dit \u00c9tudes",
+                "taux_interet": 3.5,
+                "montant_minimum": 10000,
+                "duree_plafond": 84
+            },
+            {
+                "id": 46,
+                "nom_produit": "Assurance Obs\u00e8ques",
+                "taux_interet": 1.8,
+                "montant_minimum": 5000,
+                "duree_plafond": 0
+            },
+            {
+                "id": 47,
+                "nom_produit": "Pr\u00eat Scolaire",
+                "taux_interet": 4.3,
+                "montant_minimum": 2000,
+                "duree_plafond": 48
+            },
+            {
+                "id": 48,
+                "nom_produit": "Assurance Maternit\u00e9",
+                "taux_interet": 2.0,
+                "montant_minimum": 500,
+                "duree_plafond": 0
+            },
+            {
+                "id": 49,
+                "nom_produit": "Cr\u00e9dit Formation",
+                "taux_interet": 4.6,
+                "montant_minimum": 5000,
+                "duree_plafond": 72
+            },
+            {
+                "id": 50,
+                "nom_produit": "Assurance Perte Emploi",
+                "taux_interet": 1.6,
+                "montant_minimum": 2000,
+                "duree_plafond": 0
+            }
+        ]
+    ]
+}

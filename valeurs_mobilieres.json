@@ -1,0 +1,356 @@
+{
+    "valeurs_mobilieres": [
+        [
+            {
+                "id": 1,
+                "code_valeur": "001ABC",
+                "nom_societe": "Soci\u00e9t\u00e9 A",
+                "cours_actuel": 154.3,
+                "volume_echange": 20000
+            },
+            {
+                "id": 2,
+                "code_valeur": "002DEF",
+                "nom_societe": "Banque B",
+                "cours_actuel": 75.8,
+                "volume_echange": 15000
+            },
+            {
+                "id": 3,
+                "code_valeur": "003GHI",
+                "nom_societe": "Entreprise C",
+                "cours_actuel": 210.6,
+                "volume_echange": 35000
+            },
+            {
+                "id": 4,
+                "code_valeur": "004JKL",
+                "nom_societe": "Banque D",
+                "cours_actuel": 125.4,
+                "volume_echange": 18000
+            },
+            {
+                "id": 5,
+                "code_valeur": "005MNO",
+                "nom_societe": "Soci\u00e9t\u00e9 E",
+                "cours_actuel": 182.75,
+                "volume_echange": 25000
+            },
+            {
+                "id": 6,
+                "code_valeur": "006PQR",
+                "nom_societe": "Entreprise F",
+                "cours_actuel": 95.2,
+                "volume_echange": 14000
+            },
+            {
+                "id": 7,
+                "code_valeur": "007STU",
+                "nom_societe": "Banque G",
+                "cours_actuel": 110.85,
+                "volume_echange": 21000
+            },
+            {
+                "id": 8,
+                "code_valeur": "008VWX",
+                "nom_societe": "Soci\u00e9t\u00e9 H",
+                "cours_actuel": 135.6,
+                "volume_echange": 22000
+            },
+            {
+                "id": 9,
+                "code_valeur": "009YZA",
+                "nom_societe": "Entreprise I",
+                "cours_actuel": 185.9,
+                "volume_echange": 19000
+            },
+            {
+                "id": 10,
+                "code_valeur": "010BCD",
+                "nom_societe": "Banque J",
+                "cours_actuel": 103.4,
+                "volume_echange": 16000
+            },
+            {
+                "id": 11,
+                "code_valeur": "011EFG",
+                "nom_societe": "Soci\u00e9t\u00e9 K",
+                "cours_actuel": 195.25,
+                "volume_echange": 28000
+            },
+            {
+                "id": 12,
+                "code_valeur": "012HIJ",
+                "nom_societe": "Entreprise L",
+                "cours_actuel": 78.6,
+                "volume_echange": 12000
+            },
+            {
+                "id": 13,
+                "code_valeur": "013KLM",
+                "nom_societe": "Banque M",
+                "cours_actuel": 150.2,
+                "volume_echange": 24000
+            },
+            {
+                "id": 14,
+                "code_valeur": "014NOP",
+                "nom_societe": "Soci\u00e9t\u00e9 N",
+                "cours_actuel": 165.9,
+                "volume_echange": 26000
+            },
+            {
+                "id": 15,
+                "code_valeur": "015PQR",
+                "nom_societe": "Entreprise O",
+                "cours_actuel": 82.45,
+                "volume_echange": 13000
+            },
+            {
+                "id": 16,
+                "code_valeur": "016STU",
+                "nom_societe": "Banque P",
+                "cours_actuel": 95.7,
+                "volume_echange": 17000
+            },
+            {
+                "id": 17,
+                "code_valeur": "017VWX",
+                "nom_societe": "Soci\u00e9t\u00e9 Q",
+                "cours_actuel": 175.3,
+                "volume_echange": 27000
+            },
+            {
+                "id": 18,
+                "code_valeur": "018YZA",
+                "nom_societe": "Entreprise R",
+                "cours_actuel": 88.2,
+                "volume_echange": 15000
+            },
+            {
+                "id": 19,
+                "code_valeur": "019BCD",
+                "nom_societe": "Banque S",
+                "cours_actuel": 125.1,
+                "volume_echange": 20000
+            },
+            {
+                "id": 20,
+                "code_valeur": "020EFG",
+                "nom_societe": "Soci\u00e9t\u00e9 T",
+                "cours_actuel": 195.7,
+                "volume_echange": 29000
+            },
+            {
+                "id": 21,
+                "code_valeur": "021HIJ",
+                "nom_societe": "Entreprise U",
+                "cours_actuel": 81.1,
+                "volume_echange": 11000
+            },
+            {
+                "id": 22,
+                "code_valeur": "022KLM",
+                "nom_societe": "Banque V",
+                "cours_actuel": 145.6,
+                "volume_echange": 23000
+            },
+            {
+                "id": 23,
+                "code_valeur": "023NOP",
+                "nom_societe": "Soci\u00e9t\u00e9 W",
+                "cours_actuel": 160.4,
+                "volume_echange": 25000
+            },
+            {
+                "id": 24,
+                "code_valeur": "024PQR",
+                "nom_societe": "Entreprise X",
+                "cours_actuel": 89.75,
+                "volume_echange": 14000
+            },
+            {
+                "id": 25,
+                "code_valeur": "025STU",
+                "nom_societe": "Banque Y",
+                "cours_actuel": 130.8,
+                "volume_echange": 19000
+            },
+            {
+                "id": 26,
+                "code_valeur": "026ABC",
+                "nom_societe": "Soci\u00e9t\u00e9 Z",
+                "cours_actuel": 200.15,
+                "volume_echange": 30000
+            },
+            {
+                "id": 27,
+                "code_valeur": "027DEF",
+                "nom_societe": "Entreprise AA",
+                "cours_actuel": 79.3,
+                "volume_echange": 12000
+            },
+            {
+                "id": 28,
+                "code_valeur": "028GHI",
+                "nom_societe": "Banque BB",
+                "cours_actuel": 135.2,
+                "volume_echange": 20000
+            },
+            {
+                "id": 29,
+                "code_valeur": "029JKL",
+                "nom_societe": "Soci\u00e9t\u00e9 CC",
+                "cours_actuel": 180.65,
+                "volume_echange": 26000
+            },
+            {
+                "id": 30,
+                "code_valeur": "030MNO",
+                "nom_societe": "Entreprise DD",
+                "cours_actuel": 87.9,
+                "volume_echange": 14000
+            },
+            {
+                "id": 31,
+                "code_valeur": "031PQR",
+                "nom_societe": "Banque EE",
+                "cours_actuel": 120.3,
+                "volume_echange": 18000
+            },
+            {
+                "id": 32,
+                "code_valeur": "032STU",
+                "nom_societe": "Soci\u00e9t\u00e9 FF",
+                "cours_actuel": 170.45,
+                "volume_echange": 25000
+            },
+            {
+                "id": 33,
+                "code_valeur": "033VWX",
+                "nom_societe": "Entreprise GG",
+                "cours_actuel": 92.8,
+                "volume_echange": 16000
+            },
+            {
+                "id": 34,
+                "code_valeur": "034YZA",
+                "nom_societe": "Banque HH",
+                "cours_actuel": 140.1,
+                "volume_echange": 21000
+            },
+            {
+                "id": 35,
+                "code_valeur": "035BCD",
+                "nom_societe": "Soci\u00e9t\u00e9 II",
+                "cours_actuel": 185.2,
+                "volume_echange": 27000
+            },
+            {
+                "id": 36,
+                "code_valeur": "036EFG",
+                "nom_societe": "Entreprise JJ",
+                "cours_actuel": 85.4,
+                "volume_echange": 13000
+            },
+            {
+                "id": 37,
+                "code_valeur": "037HIJ",
+                "nom_societe": "Banque KK",
+                "cours_actuel": 130.75,
+                "volume_echange": 20000
+            },
+            {
+                "id": 38,
+                "code_valeur": "038KLM",
+                "nom_societe": "Soci\u00e9t\u00e9 LL",
+                "cours_actuel": 175.9,
+                "volume_echange": 28000
+            },
+            {
+                "id": 39,
+                "code_valeur": "039NOP",
+                "nom_societe": "Entreprise MM",
+                "cours_actuel": 88.6,
+                "volume_echange": 16000
+            },
+            {
+                "id": 40,
+                "code_valeur": "040PQR",
+                "nom_societe": "Banque NN",
+                "cours_actuel": 125.4,
+                "volume_echange": 21000
+            },
+            {
+                "id": 41,
+                "code_valeur": "041STU",
+                "nom_societe": "Soci\u00e9t\u00e9 OO",
+                "cours_actuel": 190.3,
+                "volume_echange": 29000
+            },
+            {
+                "id": 42,
+                "code_valeur": "042VWX",
+                "nom_societe": "Entreprise PP",
+                "cours_actuel": 80.9,
+                "volume_echange": 15000
+            },
+            {
+                "id": 43,
+                "code_valeur": "043YZA",
+                "nom_societe": "Banque QQ",
+                "cours_actuel": 132.4,
+                "volume_echange": 22000
+            },
+            {
+                "id": 44,
+                "code_valeur": "044BCD",
+                "nom_societe": "Soci\u00e9t\u00e9 RR",
+                "cours_actuel": 170.8,
+                "volume_echange": 26000
+            },
+            {
+                "id": 45,
+                "code_valeur": "045EFG",
+                "nom_societe": "Entreprise SS",
+                "cours_actuel": 90.1,
+                "volume_echange": 14000
+            },
+            {
+                "id": 46,
+                "code_valeur": "046HIJ",
+                "nom_societe": "Banque TT",
+                "cours_actuel": 140.65,
+                "volume_echange": 20000
+            },
+            {
+                "id": 47,
+                "code_valeur": "047KLM",
+                "nom_societe": "Soci\u00e9t\u00e9 UU",
+                "cours_actuel": 178.75,
+                "volume_echange": 27000
+            },
+            {
+                "id": 48,
+                "code_valeur": "048NOP",
+                "nom_societe": "Entreprise VV",
+                "cours_actuel": 86.2,
+                "volume_echange": 16000
+            },
+            {
+                "id": 49,
+                "code_valeur": "049PQR",
+                "nom_societe": "Banque WW",
+                "cours_actuel": 127.9,
+                "volume_echange": 21000
+            },
+            {
+                "id": 50,
+                "code_valeur": "050STU",
+                "nom_societe": "Soci\u00e9t\u00e9 XX",
+                "cours_actuel": 185.4,
+                "volume_echange": 28000
+            }
+        ]
+    ]
+}

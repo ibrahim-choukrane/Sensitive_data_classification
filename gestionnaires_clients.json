@@ -1,0 +1,356 @@
+{
+    "gestionnaires_clients": [
+        [
+            {
+                "id": 1,
+                "nom_agence": "Agence Rabat Ville",
+                "nom_gestionnaire": "Fatima Zahra El Kassimi",
+                "telephone": "+212612345678",
+                "email": "fz.elkassimi@bcp.ma"
+            },
+            {
+                "id": 2,
+                "nom_agence": "Agence Casablanca Centre",
+                "nom_gestionnaire": "Mehdi Benjelloun",
+                "telephone": "+212623456789",
+                "email": "m.benjelloun@bcp.ma"
+            },
+            {
+                "id": 3,
+                "nom_agence": "Agence Marrakech Gueliz",
+                "nom_gestionnaire": "Sara Bennis",
+                "telephone": "+212634567890",
+                "email": "sara.bennis@bcp.ma"
+            },
+            {
+                "id": 4,
+                "nom_agence": "Agence Tanger Centre",
+                "nom_gestionnaire": "Karim El Khatib",
+                "telephone": "+212645678901",
+                "email": "karim.elkhatib@bcp.ma"
+            },
+            {
+                "id": 5,
+                "nom_agence": "Agence Fes M\u00e9dina",
+                "nom_gestionnaire": "Nadia Amrani",
+                "telephone": "+212656789012",
+                "email": "n.amrani@bcp.ma"
+            },
+            {
+                "id": 6,
+                "nom_agence": "Agence Agadir Centre",
+                "nom_gestionnaire": "Youssef El Fahri",
+                "telephone": "+212667890123",
+                "email": "y.el.fahri@bcp.ma"
+            },
+            {
+                "id": 7,
+                "nom_agence": "Agence Oujda Ville",
+                "nom_gestionnaire": "Leila Benjelloun",
+                "telephone": "+212678901234",
+                "email": "leila.benjelloun@bcp.ma"
+            },
+            {
+                "id": 8,
+                "nom_agence": "Agence Kenitra Centre",
+                "nom_gestionnaire": "Anouar El Mir",
+                "telephone": "+212689012345",
+                "email": "anouar.elmir@bcp.ma"
+            },
+            {
+                "id": 9,
+                "nom_agence": "Agence El Jadida Plage",
+                "nom_gestionnaire": "Imane El Ghazi",
+                "telephone": "+212690123456",
+                "email": "i.elghazi@bcp.ma"
+            },
+            {
+                "id": 10,
+                "nom_agence": "Agence Beni Mellal Centre",
+                "nom_gestionnaire": "Reda Boudlal",
+                "telephone": "+212612345678",
+                "email": "reda.boudlal@bcp.ma"
+            },
+            {
+                "id": 11,
+                "nom_agence": "Agence Agadir Souk",
+                "nom_gestionnaire": "Sami Bouhaddi",
+                "telephone": "+212623456789",
+                "email": "sami.bouhaddi@bcp.ma"
+            },
+            {
+                "id": 12,
+                "nom_agence": "Agence Casablanca Anfa",
+                "nom_gestionnaire": "Houda Chakiri",
+                "telephone": "+212634567890",
+                "email": "houda.chakiri@bcp.ma"
+            },
+            {
+                "id": 13,
+                "nom_agence": "Agence Tetouan Centre",
+                "nom_gestionnaire": "Yassin El Asri",
+                "telephone": "+212645678901",
+                "email": "yassinelasri@bcp.ma"
+            },
+            {
+                "id": 14,
+                "nom_agence": "Agence Rabat Souissi",
+                "nom_gestionnaire": "Nawal El Mhamdi",
+                "telephone": "+212656789012",
+                "email": "nawal.elmhamdi@bcp.ma"
+            },
+            {
+                "id": 15,
+                "nom_agence": "Agence Marrakech Menara",
+                "nom_gestionnaire": "Khalid Akhdim",
+                "telephone": "+212667890123",
+                "email": "k.akhdim@bcp.ma"
+            },
+            {
+                "id": 16,
+                "nom_agence": "Agence Safi Plage",
+                "nom_gestionnaire": "Nadia El Fahim",
+                "telephone": "+212678901234",
+                "email": "nadia.e.fahim@bcp.ma"
+            },
+            {
+                "id": 17,
+                "nom_agence": "Agence Meknes Centre",
+                "nom_gestionnaire": "Amine Haddou",
+                "telephone": "+212689012345",
+                "email": "aminehaddou@bcp.ma"
+            },
+            {
+                "id": 18,
+                "nom_agence": "Agence Tanger Corniche",
+                "nom_gestionnaire": "Halima El Aouad",
+                "telephone": "+212690123456",
+                "email": "halima.aouad@bcp.ma"
+            },
+            {
+                "id": 19,
+                "nom_agence": "Agence Casablanca Racine",
+                "nom_gestionnaire": "Salma El Koury",
+                "telephone": "+212612345678",
+                "email": "s.elkoury@bcp.ma"
+            },
+            {
+                "id": 20,
+                "nom_agence": "Agence Casablanca Maarif",
+                "nom_gestionnaire": "Omar Benabid",
+                "telephone": "+212623456789",
+                "email": "o.benabid@bcp.ma"
+            },
+            {
+                "id": 21,
+                "nom_agence": "Agence Kenitra Plage",
+                "nom_gestionnaire": "Widad Aboulaich",
+                "telephone": "+212634567890",
+                "email": "widad.aboulaich@bcp.ma"
+            },
+            {
+                "id": 22,
+                "nom_agence": "Agence Essaouira Ville",
+                "nom_gestionnaire": "Abdellah El Fassi",
+                "telephone": "+212645678901",
+                "email": "abdellah.fassi@bcp.ma"
+            },
+            {
+                "id": 23,
+                "nom_agence": "Agence Ouarzazate Centre",
+                "nom_gestionnaire": "Said El Haddadi",
+                "telephone": "+212656789012",
+                "email": "s.elhaddadi@bcp.ma"
+            },
+            {
+                "id": 24,
+                "nom_agence": "Agence Agadir Marina",
+                "nom_gestionnaire": "Hajar Elmahdi",
+                "telephone": "+212667890123",
+                "email": "h.elmahdi@bcp.ma"
+            },
+            {
+                "id": 25,
+                "nom_agence": "Agence Fes Zalagh",
+                "nom_gestionnaire": "Brahim Berrada",
+                "telephone": "+212678901234",
+                "email": "brahim.berrada@bcp.ma"
+            },
+            {
+                "id": 26,
+                "nom_agence": "Agence Rabat Souissi",
+                "nom_gestionnaire": "Loubna Anwar",
+                "telephone": "+212689012345",
+                "email": "loubna.anwar@bcp.ma"
+            },
+            {
+                "id": 27,
+                "nom_agence": "Agence Tanger Ville",
+                "nom_gestionnaire": "Ahmed Sabir",
+                "telephone": "+212690123456",
+                "email": "a.sabir@bcp.ma"
+            },
+            {
+                "id": 28,
+                "nom_agence": "Agence Rabat Agdal",
+                "nom_gestionnaire": "Hanaa Tazi",
+                "telephone": "+212612345678",
+                "email": "hanaa.tazi@bcp.ma"
+            },
+            {
+                "id": 29,
+                "nom_agence": "Agence Casablanca Californie",
+                "nom_gestionnaire": "Mohamed El Amrani",
+                "telephone": "+212623456789",
+                "email": "m.elamrani@bcp.ma"
+            },
+            {
+                "id": 30,
+                "nom_agence": "Agence Agadir Founty",
+                "nom_gestionnaire": "Mouna El Abbassi",
+                "telephone": "+212634567890",
+                "email": "m.abbassi@bcp.ma"
+            },
+            {
+                "id": 31,
+                "nom_agence": "Agence Tiznit Centre",
+                "nom_gestionnaire": "Zakaria El Bakkali",
+                "telephone": "+212645678901",
+                "email": "z.elbakkali@bcp.ma"
+            },
+            {
+                "id": 32,
+                "nom_agence": "Agence Casablanca Bourgogne",
+                "nom_gestionnaire": "Ines El Fakir",
+                "telephone": "+212656789012",
+                "email": "ines.efakir@bcp.ma"
+            },
+            {
+                "id": 33,
+                "nom_agence": "Agence Mohammedia Plage",
+                "nom_gestionnaire": "Hamza El Hajji",
+                "telephone": "+212667890123",
+                "email": "hamza.hajji@bcp.ma"
+            },
+            {
+                "id": 34,
+                "nom_agence": "Agence Laayoune Ville",
+                "nom_gestionnaire": "Fatima El Kabbaj",
+                "telephone": "+212678901234",
+                "email": "f.elkabbaj@bcp.ma"
+            },
+            {
+                "id": 35,
+                "nom_agence": "Agence Oujda Angad",
+                "nom_gestionnaire": "Samir El Haddadi",
+                "telephone": "+212689012345",
+                "email": "samir.ehaddadi@bcp.ma"
+            },
+            {
+                "id": 36,
+                "nom_agence": "Agence Casablanca Oasis",
+                "nom_gestionnaire": "Rita Benjelloun",
+                "telephone": "+212690123456",
+                "email": "rita.benjelloun@bcp.ma"
+            },
+            {
+                "id": 37,
+                "nom_agence": "Agence Casablanca Maarif",
+                "nom_gestionnaire": "Hicham Bouzid",
+                "telephone": "+212612345678",
+                "email": "hicham.bouzid@bcp.ma"
+            },
+            {
+                "id": 38,
+                "nom_agence": "Agence Meknes Medina",
+                "nom_gestionnaire": "Meriem Amrani",
+                "telephone": "+212623456789",
+                "email": "meriem.amrani@bcp.ma"
+            },
+            {
+                "id": 39,
+                "nom_agence": "Agence Agadir Sonaba",
+                "nom_gestionnaire": "Nabil El Farouki",
+                "telephone": "+212634567890",
+                "email": "n.farouki@bcp.ma"
+            },
+            {
+                "id": 40,
+                "nom_agence": "Agence Tanger SeaFront",
+                "nom_gestionnaire": "Latifa El Hassani",
+                "telephone": "+212645678901",
+                "email": "latifa.hassani@bcp.ma"
+            },
+            {
+                "id": 41,
+                "nom_agence": "Agence Rabat Hay Riad",
+                "nom_gestionnaire": "Zineb Essakali",
+                "telephone": "+212656789012",
+                "email": "z.essakali@bcp.ma"
+            },
+            {
+                "id": 42,
+                "nom_agence": "Agence Casablanca Sidi Othmane",
+                "nom_gestionnaire": "Othmane Bouchra",
+                "telephone": "+212667890123",
+                "email": "othmane.bouchra@bcp.ma"
+            },
+            {
+                "id": 43,
+                "nom_agence": "Agence Tanger Malabata",
+                "nom_gestionnaire": "Youssef El Haddadi",
+                "telephone": "+212678901234",
+                "email": "youssef.ehaddadi@bcp.ma"
+            },
+            {
+                "id": 44,
+                "nom_agence": "Agence Marrakech Palmeraie",
+                "nom_gestionnaire": "Ilham El Alaoui",
+                "telephone": "+212689012345",
+                "email": "i.alaoui@bcp.ma"
+            },
+            {
+                "id": 45,
+                "nom_agence": "Agence El Jadida Centre",
+                "nom_gestionnaire": "Karima El Kadi",
+                "telephone": "+212690123456",
+                "email": "karima.elkadi@bcp.ma"
+            },
+            {
+                "id": 46,
+                "nom_agence": "Agence Tifelt Centre",
+                "nom_gestionnaire": "Sofia El Khadem",
+                "telephone": "+212612345678",
+                "email": "sofia.elkhadem@bcp.ma"
+            },
+            {
+                "id": 47,
+                "nom_agence": "Agence Casablanca Racine",
+                "nom_gestionnaire": "Ali Benjelloun",
+                "telephone": "+212623456789",
+                "email": "ali.benjelloun@bcp.ma"
+            },
+            {
+                "id": 48,
+                "nom_agence": "Agence Agadir Founty",
+                "nom_gestionnaire": "Khadija El Hrari",
+                "telephone": "+212634567890",
+                "email": "khadija.ehrari@bcp.ma"
+            },
+            {
+                "id": 49,
+                "nom_agence": "Agence Rabat Agdal",
+                "nom_gestionnaire": "Ayoub El Azzouzi",
+                "telephone": "+212645678901",
+                "email": "ayoub.e.azzouzi@bcp.ma"
+            },
+            {
+                "id": 50,
+                "nom_agence": "Agence Tanger Ville",
+                "nom_gestionnaire": "Soukaina El Hachimi",
+                "telephone": "+212656789012",
+                "email": "soukaina.elhachimi@bcp.ma"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,356 @@
+{
+    "transactions_devises": [
+        [
+            {
+                "id": 1,
+                "devise": "USD",
+                "montant": 2500.65,
+                "taux_change": 9.2,
+                "date_transaction": "2020-10-15"
+            },
+            {
+                "id": 2,
+                "devise": "EUR",
+                "montant": 1800.45,
+                "taux_change": 10.5,
+                "date_transaction": "2020-09-28"
+            },
+            {
+                "id": 3,
+                "devise": "GBP",
+                "montant": 3500.0,
+                "taux_change": 12.8,
+                "date_transaction": "2020-08-12"
+            },
+            {
+                "id": 4,
+                "devise": "JPY",
+                "montant": 15000.0,
+                "taux_change": 0.087,
+                "date_transaction": "2021-02-20"
+            },
+            {
+                "id": 5,
+                "devise": "CHF",
+                "montant": 4200.3,
+                "taux_change": 9.85,
+                "date_transaction": "2020-06-05"
+            },
+            {
+                "id": 6,
+                "devise": "CAD",
+                "montant": 2900.85,
+                "taux_change": 7.6,
+                "date_transaction": "2021-04-18"
+            },
+            {
+                "id": 7,
+                "devise": "AUD",
+                "montant": 2700.7,
+                "taux_change": 5.5,
+                "date_transaction": "2020-11-30"
+            },
+            {
+                "id": 8,
+                "devise": "CNY",
+                "montant": 12500.25,
+                "taux_change": 1.3,
+                "date_transaction": "2021-01-10"
+            },
+            {
+                "id": 9,
+                "devise": "AED",
+                "montant": 3800.5,
+                "taux_change": 2.4,
+                "date_transaction": "2020-07-23"
+            },
+            {
+                "id": 10,
+                "devise": "BRL",
+                "montant": 2000.0,
+                "taux_change": 3.2,
+                "date_transaction": "2021-03-08"
+            },
+            {
+                "id": 11,
+                "devise": "RUB",
+                "montant": 5000.0,
+                "taux_change": 0.12,
+                "date_transaction": "2020-12-19"
+            },
+            {
+                "id": 12,
+                "devise": "INR",
+                "montant": 6000.7,
+                "taux_change": 0.071,
+                "date_transaction": "2021-05-14"
+            },
+            {
+                "id": 13,
+                "devise": "ZAR",
+                "montant": 4300.9,
+                "taux_change": 0.58,
+                "date_transaction": "2020-03-26"
+            },
+            {
+                "id": 14,
+                "devise": "MXN",
+                "montant": 2400.0,
+                "taux_change": 0.45,
+                "date_transaction": "2021-06-01"
+            },
+            {
+                "id": 15,
+                "devise": "NZD",
+                "montant": 1950.25,
+                "taux_change": 6.3,
+                "date_transaction": "2020-01-17"
+            },
+            {
+                "id": 16,
+                "devise": "KRW",
+                "montant": 18000.5,
+                "taux_change": 0.0083,
+                "date_transaction": "2021-07-09"
+            },
+            {
+                "id": 17,
+                "devise": "SEK",
+                "montant": 1500.8,
+                "taux_change": 8.2,
+                "date_transaction": "2020-02-07"
+            },
+            {
+                "id": 18,
+                "devise": "HUF",
+                "montant": 7600.2,
+                "taux_change": 0.03,
+                "date_transaction": "2020-04-15"
+            },
+            {
+                "id": 19,
+                "devise": "TRY",
+                "montant": 3200.0,
+                "taux_change": 1.9,
+                "date_transaction": "2021-07-25"
+            },
+            {
+                "id": 20,
+                "devise": "NOK",
+                "montant": 1350.75,
+                "taux_change": 9.6,
+                "date_transaction": "2020-12-30"
+            },
+            {
+                "id": 21,
+                "devise": "CZK",
+                "montant": 2800.4,
+                "taux_change": 0.4,
+                "date_transaction": "2021-04-29"
+            },
+            {
+                "id": 22,
+                "devise": "SGD",
+                "montant": 4000.6,
+                "taux_change": 6.8,
+                "date_transaction": "2020-08-03"
+            },
+            {
+                "id": 23,
+                "devise": "PLN",
+                "montant": 1900.9,
+                "taux_change": 4.1,
+                "date_transaction": "2020-11-11"
+            },
+            {
+                "id": 24,
+                "devise": "DZD",
+                "montant": 4800.3,
+                "taux_change": 0.075,
+                "date_transaction": "2021-06-05"
+            },
+            {
+                "id": 25,
+                "devise": "QAR",
+                "montant": 2100.75,
+                "taux_change": 2.75,
+                "date_transaction": "2020-09-27"
+            },
+            {
+                "id": 26,
+                "devise": "MYR",
+                "montant": 2250.1,
+                "taux_change": 4.5,
+                "date_transaction": "2021-01-16"
+            },
+            {
+                "id": 27,
+                "devise": "HKD",
+                "montant": 2600.3,
+                "taux_change": 1.65,
+                "date_transaction": "2020-07-02"
+            },
+            {
+                "id": 28,
+                "devise": "SAR",
+                "montant": 2750.45,
+                "taux_change": 2.9,
+                "date_transaction": "2021-02-21"
+            },
+            {
+                "id": 29,
+                "devise": "TND",
+                "montant": 1500.1,
+                "taux_change": 3.9,
+                "date_transaction": "2020-10-10"
+            },
+            {
+                "id": 30,
+                "devise": "IDR",
+                "montant": 3150.25,
+                "taux_change": 0.055,
+                "date_transaction": "2021-05-04"
+            },
+            {
+                "id": 31,
+                "devise": "THB",
+                "montant": 2900.4,
+                "taux_change": 0.35,
+                "date_transaction": "2020-03-19"
+            },
+            {
+                "id": 32,
+                "devise": "EGP",
+                "montant": 3400.6,
+                "taux_change": 0.62,
+                "date_transaction": "2021-07-11"
+            },
+            {
+                "id": 33,
+                "devise": "KWD",
+                "montant": 5000.8,
+                "taux_change": 30.45,
+                "date_transaction": "2020-12-14"
+            },
+            {
+                "id": 34,
+                "devise": "PKR",
+                "montant": 1700.95,
+                "taux_change": 0.029,
+                "date_transaction": "2020-01-30"
+            },
+            {
+                "id": 35,
+                "devise": "MAD",
+                "montant": 4050.45,
+                "taux_change": 1.0,
+                "date_transaction": "2021-06-18"
+            },
+            {
+                "id": 36,
+                "devise": "SGD",
+                "montant": 4100.7,
+                "taux_change": 6.75,
+                "date_transaction": "2020-09-13"
+            },
+            {
+                "id": 37,
+                "devise": "BRL",
+                "montant": 1800.8,
+                "taux_change": 3.1,
+                "date_transaction": "2021-03-30"
+            },
+            {
+                "id": 38,
+                "devise": "AED",
+                "montant": 3550.25,
+                "taux_change": 2.5,
+                "date_transaction": "2020-06-24"
+            },
+            {
+                "id": 39,
+                "devise": "INR",
+                "montant": 5900.9,
+                "taux_change": 0.068,
+                "date_transaction": "2021-12-02"
+            },
+            {
+                "id": 40,
+                "devise": "RUB",
+                "montant": 4800.2,
+                "taux_change": 0.115,
+                "date_transaction": "2020-08-07"
+            },
+            {
+                "id": 41,
+                "devise": "ZAR",
+                "montant": 5000.1,
+                "taux_change": 0.6,
+                "date_transaction": "2021-02-14"
+            },
+            {
+                "id": 42,
+                "devise": "MXN",
+                "montant": 2750.45,
+                "taux_change": 0.5,
+                "date_transaction": "2020-07-29"
+            },
+            {
+                "id": 43,
+                "devise": "NZD",
+                "montant": 2100.25,
+                "taux_change": 6.7,
+                "date_transaction": "2020-11-15"
+            },
+            {
+                "id": 44,
+                "devise": "KRW",
+                "montant": 17500.6,
+                "taux_change": 0.0079,
+                "date_transaction": "2021-05-30"
+            },
+            {
+                "id": 45,
+                "devise": "SEK",
+                "montant": 1300.8,
+                "taux_change": 8.45,
+                "date_transaction": "2020-04-05"
+            },
+            {
+                "id": 46,
+                "devise": "HUF",
+                "montant": 7500.2,
+                "taux_change": 0.031,
+                "date_transaction": "2020-12-22"
+            },
+            {
+                "id": 47,
+                "devise": "TRY",
+                "montant": 3400.0,
+                "taux_change": 1.85,
+                "date_transaction": "2021-08-15"
+            },
+            {
+                "id": 48,
+                "devise": "NOK",
+                "montant": 1200.75,
+                "taux_change": 9.75,
+                "date_transaction": "2020-11-09"
+            },
+            {
+                "id": 49,
+                "devise": "CZK",
+                "montant": 2750.4,
+                "taux_change": 0.42,
+                "date_transaction": "2020-10-23"
+            },
+            {
+                "id": 50,
+                "devise": "SGD",
+                "montant": 3900.6,
+                "taux_change": 6.85,
+                "date_transaction": "2021-01-07"
+            }
+        ]
+    ]
+}

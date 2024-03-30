@@ -1,0 +1,356 @@
+{
+    "cautions_bancaires": [
+        [
+            {
+                "id": 1,
+                "num_contrat": "CNK12345",
+                "beneficiaire": "Soci\u00e9t\u00e9 de construction ABC",
+                "montant": 200000,
+                "type_caution": "Caution de soumission"
+            },
+            {
+                "id": 2,
+                "num_contrat": "CNK54321",
+                "beneficiaire": "Soci\u00e9t\u00e9 d'importation XYZ",
+                "montant": 150000,
+                "type_caution": "Caution de restitution d'acompte"
+            },
+            {
+                "id": 3,
+                "num_contrat": "CNK98765",
+                "beneficiaire": "Soci\u00e9t\u00e9 de travaux publics QRS",
+                "montant": 180000,
+                "type_caution": "Caution de bonne fin"
+            },
+            {
+                "id": 4,
+                "num_contrat": "CNK24680",
+                "beneficiaire": "Soci\u00e9t\u00e9 de commerce UVW",
+                "montant": 120000,
+                "type_caution": "Caution de retenue de garantie"
+            },
+            {
+                "id": 5,
+                "num_contrat": "CNK13579",
+                "beneficiaire": "Soci\u00e9t\u00e9 de production DEF",
+                "montant": 250000,
+                "type_caution": "Caution de paiement des taxes"
+            },
+            {
+                "id": 6,
+                "num_contrat": "CNK86420",
+                "beneficiaire": "Soci\u00e9t\u00e9 de transport GHI",
+                "montant": 175000,
+                "type_caution": "Caution de pr\u00e9paiement"
+            },
+            {
+                "id": 7,
+                "num_contrat": "CNK57391",
+                "beneficiaire": "Soci\u00e9t\u00e9 d'agroalimentaire JKL",
+                "montant": 210000,
+                "type_caution": "Caution de retenue de garantie"
+            },
+            {
+                "id": 8,
+                "num_contrat": "CNK11900",
+                "beneficiaire": "Soci\u00e9t\u00e9 de services MNO",
+                "montant": 190000,
+                "type_caution": "Caution de remboursement d'avance"
+            },
+            {
+                "id": 9,
+                "num_contrat": "CNK88995",
+                "beneficiaire": "Soci\u00e9t\u00e9 de communication RST",
+                "montant": 160000,
+                "type_caution": "Caution de retenue de garantie"
+            },
+            {
+                "id": 10,
+                "num_contrat": "CNK77661",
+                "beneficiaire": "Soci\u00e9t\u00e9 de consulting PQR",
+                "montant": 220000,
+                "type_caution": "Caution de restitution d'acompte"
+            },
+            {
+                "id": 11,
+                "num_contrat": "CNK55224",
+                "beneficiaire": "Soci\u00e9t\u00e9 de design WXYZ",
+                "montant": 135000,
+                "type_caution": "Caution de bonne fin"
+            },
+            {
+                "id": 12,
+                "num_contrat": "CNK44133",
+                "beneficiaire": "Soci\u00e9t\u00e9 de maintenance UVW",
+                "montant": 195000,
+                "type_caution": "Caution de soumission"
+            },
+            {
+                "id": 13,
+                "num_contrat": "CNK33942",
+                "beneficiaire": "Soci\u00e9t\u00e9 d'innovation ABC",
+                "montant": 165000,
+                "type_caution": "Caution de retenue de garantie"
+            },
+            {
+                "id": 14,
+                "num_contrat": "CNK22751",
+                "beneficiaire": "Soci\u00e9t\u00e9 d'\u00e9v\u00e9nementiel DEF",
+                "montant": 230000,
+                "type_caution": "Caution de paiement des taxes"
+            },
+            {
+                "id": 15,
+                "num_contrat": "CNK11560",
+                "beneficiaire": "Soci\u00e9t\u00e9 de formation GHI",
+                "montant": 140000,
+                "type_caution": "Caution de pr\u00e9paiement"
+            },
+            {
+                "id": 16,
+                "num_contrat": "CNK99379",
+                "beneficiaire": "Soci\u00e9t\u00e9 de conseil JKL",
+                "montant": 170000,
+                "type_caution": "Caution de remboursement d'avance"
+            },
+            {
+                "id": 17,
+                "num_contrat": "CNK88188",
+                "beneficiaire": "Soci\u00e9t\u00e9 de distribution MNO",
+                "montant": 200000,
+                "type_caution": "Caution de restitution d'acompte"
+            },
+            {
+                "id": 18,
+                "num_contrat": "CNK77007",
+                "beneficiaire": "Soci\u00e9t\u00e9 de production RST",
+                "montant": 125000,
+                "type_caution": "Caution de bonne fin"
+            },
+            {
+                "id": 19,
+                "num_contrat": "CNK66866",
+                "beneficiaire": "Soci\u00e9t\u00e9 de construction PQR",
+                "montant": 240000,
+                "type_caution": "Caution de soumission"
+            },
+            {
+                "id": 20,
+                "num_contrat": "CNK55655",
+                "beneficiaire": "Soci\u00e9t\u00e9 d'importation WXYZ",
+                "montant": 185000,
+                "type_caution": "Caution de retenue de garantie"
+            },
+            {
+                "id": 21,
+                "num_contrat": "CNK44122",
+                "beneficiaire": "Soci\u00e9t\u00e9 de travaux publics UVW",
+                "montant": 195000,
+                "type_caution": "Caution de paiement des taxes"
+            },
+            {
+                "id": 22,
+                "num_contrat": "CNK33731",
+                "beneficiaire": "Soci\u00e9t\u00e9 de commerce ABC",
+                "montant": 155000,
+                "type_caution": "Caution de pr\u00e9paiement"
+            },
+            {
+                "id": 23,
+                "num_contrat": "CNK22540",
+                "beneficiaire": "Soci\u00e9t\u00e9 de transport DEF",
+                "montant": 180000,
+                "type_caution": "Caution de remboursement d'avance"
+            },
+            {
+                "id": 24,
+                "num_contrat": "CNK11359",
+                "beneficiaire": "Soci\u00e9t\u00e9 d'agroalimentaire GHI",
+                "montant": 210000,
+                "type_caution": "Caution de restitution d'acompte"
+            },
+            {
+                "id": 25,
+                "num_contrat": "CNK99188",
+                "beneficiaire": "Soci\u00e9t\u00e9 de services JKL",
+                "montant": 130000,
+                "type_caution": "Caution de bonne fin"
+            },
+            {
+                "id": 26,
+                "num_contrat": "CNK88977",
+                "beneficiaire": "Soci\u00e9t\u00e9 de communication MNO",
+                "montant": 235000,
+                "type_caution": "Caution de soumission"
+            },
+            {
+                "id": 27,
+                "num_contrat": "CNK77766",
+                "beneficiaire": "Soci\u00e9t\u00e9 de consulting RST",
+                "montant": 170000,
+                "type_caution": "Caution de retenue de garantie"
+            },
+            {
+                "id": 28,
+                "num_contrat": "CNK66555",
+                "beneficiaire": "Soci\u00e9t\u00e9 de design PQR",
+                "montant": 190000,
+                "type_caution": "Caution de paiement des taxes"
+            },
+            {
+                "id": 29,
+                "num_contrat": "CNK55344",
+                "beneficiaire": "Soci\u00e9t\u00e9 de maintenance WXYZ",
+                "montant": 145000,
+                "type_caution": "Caution de pr\u00e9paiement"
+            },
+            {
+                "id": 30,
+                "num_contrat": "CNK44133",
+                "beneficiaire": "Soci\u00e9t\u00e9 d'innovation UVW",
+                "montant": 220000,
+                "type_caution": "Caution de remboursement d'avance"
+            },
+            {
+                "id": 31,
+                "num_contrat": "CNK33922",
+                "beneficiaire": "Soci\u00e9t\u00e9 d'\u00e9v\u00e9nementiel ABC",
+                "montant": 175000,
+                "type_caution": "Caution de restitution d'acompte"
+            },
+            {
+                "id": 32,
+                "num_contrat": "CNK22711",
+                "beneficiaire": "Soci\u00e9t\u00e9 de formation DEF",
+                "montant": 200000,
+                "type_caution": "Caution de bonne fin"
+            },
+            {
+                "id": 33,
+                "num_contrat": "CNK11500",
+                "beneficiaire": "Soci\u00e9t\u00e9 de conseil GHI",
+                "montant": 240000,
+                "type_caution": "Caution de soumission"
+            },
+            {
+                "id": 34,
+                "num_contrat": "CNK99369",
+                "beneficiaire": "Soci\u00e9t\u00e9 de distribution JKL",
+                "montant": 160000,
+                "type_caution": "Caution de retenue de garantie"
+            },
+            {
+                "id": 35,
+                "num_contrat": "CNK88162",
+                "beneficiaire": "Soci\u00e9t\u00e9 de production MNO",
+                "montant": 180000,
+                "type_caution": "Caution de paiement des taxes"
+            },
+            {
+                "id": 36,
+                "num_contrat": "CNK77951",
+                "beneficiaire": "Soci\u00e9t\u00e9 de communication RST",
+                "montant": 195000,
+                "type_caution": "Caution de pr\u00e9paiement"
+            },
+            {
+                "id": 37,
+                "num_contrat": "CNK66740",
+                "beneficiaire": "Soci\u00e9t\u00e9 de consulting PQR",
+                "montant": 210000,
+                "type_caution": "Caution de remboursement d'avance"
+            },
+            {
+                "id": 38,
+                "num_contrat": "CNK55539",
+                "beneficiaire": "Soci\u00e9t\u00e9 de design WXYZ",
+                "montant": 135000,
+                "type_caution": "Caution de restitution d'acompte"
+            },
+            {
+                "id": 39,
+                "num_contrat": "CNK44328",
+                "beneficiaire": "Soci\u00e9t\u00e9 de maintenance UVW",
+                "montant": 250000,
+                "type_caution": "Caution de bonne fin"
+            },
+            {
+                "id": 40,
+                "num_contrat": "CNK33117",
+                "beneficiaire": "Soci\u00e9t\u00e9 d'innovation ABC",
+                "montant": 175000,
+                "type_caution": "Caution de soumission"
+            },
+            {
+                "id": 41,
+                "num_contrat": "CNK22906",
+                "beneficiaire": "Soci\u00e9t\u00e9 d'\u00e9v\u00e9nementiel DEF",
+                "montant": 160000,
+                "type_caution": "Caution de retenue de garantie"
+            },
+            {
+                "id": 42,
+                "num_contrat": "CNK11795",
+                "beneficiaire": "Soci\u00e9t\u00e9 de formation GHI",
+                "montant": 185000,
+                "type_caution": "Caution de paiement des taxes"
+            },
+            {
+                "id": 43,
+                "num_contrat": "CNK99584",
+                "beneficiaire": "Soci\u00e9t\u00e9 de conseil JKL",
+                "montant": 190000,
+                "type_caution": "Caution de pr\u00e9paiement"
+            },
+            {
+                "id": 44,
+                "num_contrat": "CNK77373",
+                "beneficiaire": "Soci\u00e9t\u00e9 de distribution MNO",
+                "montant": 210000,
+                "type_caution": "Caution de remboursement d'avance"
+            },
+            {
+                "id": 45,
+                "num_contrat": "CNK66162",
+                "beneficiaire": "Soci\u00e9t\u00e9 de production RST",
+                "montant": 145000,
+                "type_caution": "Caution de restitution d'acompte"
+            },
+            {
+                "id": 46,
+                "num_contrat": "CNK55951",
+                "beneficiaire": "Soci\u00e9t\u00e9 de consulting PQR",
+                "montant": 230000,
+                "type_caution": "Caution de bonne fin"
+            },
+            {
+                "id": 47,
+                "num_contrat": "CNK44740",
+                "beneficiaire": "Soci\u00e9t\u00e9 de design WXYZ",
+                "montant": 175000,
+                "type_caution": "Caution de soumission"
+            },
+            {
+                "id": 48,
+                "num_contrat": "CNK33539",
+                "beneficiaire": "Soci\u00e9t\u00e9 de maintenance UVW",
+                "montant": 200000,
+                "type_caution": "Caution de retenue de garantie"
+            },
+            {
+                "id": 49,
+                "num_contrat": "CNK22328",
+                "beneficiaire": "Soci\u00e9t\u00e9 d'innovation ABC",
+                "montant": 160000,
+                "type_caution": "Caution de paiement des taxes"
+            },
+            {
+                "id": 50,
+                "num_contrat": "CNK11117",
+                "beneficiaire": "Soci\u00e9t\u00e9 d'\u00e9v\u00e9nementiel DEF",
+                "montant": 175000,
+                "type_caution": "Caution de pr\u00e9paiement"
+            }
+        ]
+    ]
+}

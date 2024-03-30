@@ -1,0 +1,356 @@
+{
+    "oppositions_cartes": [
+        [
+            {
+                "id": 1,
+                "numero_carte": "1234567890123456",
+                "date_opposition": "2021-04-21",
+                "raison_opposition": "Vol de la carte",
+                "statut": "En attente"
+            },
+            {
+                "id": 2,
+                "numero_carte": "9876543210987654",
+                "date_opposition": "2021-05-13",
+                "raison_opposition": "Utilisation frauduleuse",
+                "statut": "En cours"
+            },
+            {
+                "id": 3,
+                "numero_carte": "4567890123456789",
+                "date_opposition": "2021-06-05",
+                "raison_opposition": "Perte de la carte",
+                "statut": "R\u00e9solu"
+            },
+            {
+                "id": 4,
+                "numero_carte": "7890123456789012",
+                "date_opposition": "2021-07-19",
+                "raison_opposition": "Carte expir\u00e9e",
+                "statut": "En attente"
+            },
+            {
+                "id": 5,
+                "numero_carte": "2345678901234567",
+                "date_opposition": "2021-08-25",
+                "raison_opposition": "Erreur de transaction",
+                "statut": "En cours"
+            },
+            {
+                "id": 6,
+                "numero_carte": "5678901234567890",
+                "date_opposition": "2021-09-30",
+                "raison_opposition": "Carte endommag\u00e9e",
+                "statut": "En attente"
+            },
+            {
+                "id": 7,
+                "numero_carte": "8901234567890123",
+                "date_opposition": "2021-10-03",
+                "raison_opposition": "Suspicion de fraude",
+                "statut": "En cours"
+            },
+            {
+                "id": 8,
+                "numero_carte": "3456789012345678",
+                "date_opposition": "2021-11-17",
+                "raison_opposition": "Vol de la carte",
+                "statut": "En cours"
+            },
+            {
+                "id": 9,
+                "numero_carte": "6789012345678901",
+                "date_opposition": "2021-12-22",
+                "raison_opposition": "Perte de la carte",
+                "statut": "R\u00e9solu"
+            },
+            {
+                "id": 10,
+                "numero_carte": "9012345678901234",
+                "date_opposition": "2022-01-09",
+                "raison_opposition": "Utilisation frauduleuse",
+                "statut": "En attente"
+            },
+            {
+                "id": 11,
+                "numero_carte": "4321098765432109",
+                "date_opposition": "2022-02-14",
+                "raison_opposition": "Carte expir\u00e9e",
+                "statut": "En cours"
+            },
+            {
+                "id": 12,
+                "numero_carte": "7654321098765432",
+                "date_opposition": "2022-03-28",
+                "raison_opposition": "Erreur de transaction",
+                "statut": "En cours"
+            },
+            {
+                "id": 13,
+                "numero_carte": "0909090909090909",
+                "date_opposition": "2022-04-05",
+                "raison_opposition": "Suspicion de fraude",
+                "statut": "R\u00e9solu"
+            },
+            {
+                "id": 14,
+                "numero_carte": "1919191919191919",
+                "date_opposition": "2022-05-13",
+                "raison_opposition": "Carte endommag\u00e9e",
+                "statut": "En cours"
+            },
+            {
+                "id": 15,
+                "numero_carte": "2929292929292929",
+                "date_opposition": "2022-06-20",
+                "raison_opposition": "Vol de la carte",
+                "statut": "R\u00e9solu"
+            },
+            {
+                "id": 16,
+                "numero_carte": "3939393939393939",
+                "date_opposition": "2022-07-29",
+                "raison_opposition": "Utilisation frauduleuse",
+                "statut": "En attente"
+            },
+            {
+                "id": 17,
+                "numero_carte": "4949494949494949",
+                "date_opposition": "2022-08-08",
+                "raison_opposition": "Perte de la carte",
+                "statut": "En cours"
+            },
+            {
+                "id": 18,
+                "numero_carte": "5959595959595959",
+                "date_opposition": "2022-09-11",
+                "raison_opposition": "Carte expir\u00e9e",
+                "statut": "En attente"
+            },
+            {
+                "id": 19,
+                "numero_carte": "6969696969696969",
+                "date_opposition": "2022-10-15",
+                "raison_opposition": "Erreur de transaction",
+                "statut": "R\u00e9solu"
+            },
+            {
+                "id": 20,
+                "numero_carte": "7979797979797979",
+                "date_opposition": "2022-11-24",
+                "raison_opposition": "Suspicion de fraude",
+                "statut": "En cours"
+            },
+            {
+                "id": 21,
+                "numero_carte": "0000000000000000",
+                "date_opposition": "2022-12-25",
+                "raison_opposition": "Carte endommag\u00e9e",
+                "statut": "En cours"
+            },
+            {
+                "id": 22,
+                "numero_carte": "1111111111111111",
+                "date_opposition": "2023-01-07",
+                "raison_opposition": "Vol de la carte",
+                "statut": "En attente"
+            },
+            {
+                "id": 23,
+                "numero_carte": "2222222222222222",
+                "date_opposition": "2023-02-17",
+                "raison_opposition": "Utilisation frauduleuse",
+                "statut": "En cours"
+            },
+            {
+                "id": 24,
+                "numero_carte": "3333333333333333",
+                "date_opposition": "2023-03-30",
+                "raison_opposition": "Perte de la carte",
+                "statut": "R\u00e9solu"
+            },
+            {
+                "id": 25,
+                "numero_carte": "4444444444444444",
+                "date_opposition": "2023-04-03",
+                "raison_opposition": "Carte expir\u00e9e",
+                "statut": "En cours"
+            },
+            {
+                "id": 26,
+                "numero_carte": "5555555555555555",
+                "date_opposition": "2023-05-14",
+                "raison_opposition": "Erreur de transaction",
+                "statut": "En attente"
+            },
+            {
+                "id": 27,
+                "numero_carte": "6666666666666666",
+                "date_opposition": "2023-06-21",
+                "raison_opposition": "Suspicion de fraude",
+                "statut": "En cours"
+            },
+            {
+                "id": 28,
+                "numero_carte": "7777777777777777",
+                "date_opposition": "2023-07-30",
+                "raison_opposition": "Carte endommag\u00e9e",
+                "statut": "R\u00e9solu"
+            },
+            {
+                "id": 29,
+                "numero_carte": "8888888888888888",
+                "date_opposition": "2023-08-09",
+                "raison_opposition": "Vol de la carte",
+                "statut": "En cours"
+            },
+            {
+                "id": 30,
+                "numero_carte": "9999999999999999",
+                "date_opposition": "2023-09-12",
+                "raison_opposition": "Utilisation frauduleuse",
+                "statut": "R\u00e9solu"
+            },
+            {
+                "id": 31,
+                "numero_carte": "0123456789123456",
+                "date_opposition": "2023-10-16",
+                "raison_opposition": "Perte de la carte",
+                "statut": "En attente"
+            },
+            {
+                "id": 32,
+                "numero_carte": "1234567891234567",
+                "date_opposition": "2023-11-25",
+                "raison_opposition": "Carte expir\u00e9e",
+                "statut": "R\u00e9solu"
+            },
+            {
+                "id": 33,
+                "numero_carte": "2345678902345678",
+                "date_opposition": "2024-01-01",
+                "raison_opposition": "Erreur de transaction",
+                "statut": "En cours"
+            },
+            {
+                "id": 34,
+                "numero_carte": "3456789013456789",
+                "date_opposition": "2024-02-08",
+                "raison_opposition": "Suspicion de fraude",
+                "statut": "En attente"
+            },
+            {
+                "id": 35,
+                "numero_carte": "4567890124567890",
+                "date_opposition": "2024-03-16",
+                "raison_opposition": "Vol de la carte",
+                "statut": "En cours"
+            },
+            {
+                "id": 36,
+                "numero_carte": "5678901235678901",
+                "date_opposition": "2024-04-29",
+                "raison_opposition": "Utilisation frauduleuse",
+                "statut": "R\u00e9solu"
+            },
+            {
+                "id": 37,
+                "numero_carte": "6789012346789012",
+                "date_opposition": "2024-05-03",
+                "raison_opposition": "Perte de la carte",
+                "statut": "En attente"
+            },
+            {
+                "id": 38,
+                "numero_carte": "7890123457890123",
+                "date_opposition": "2024-06-07",
+                "raison_opposition": "Carte expir\u00e9e",
+                "statut": "En cours"
+            },
+            {
+                "id": 39,
+                "numero_carte": "8901234568901234",
+                "date_opposition": "2024-07-17",
+                "raison_opposition": "Erreur de transaction",
+                "statut": "En cours"
+            },
+            {
+                "id": 40,
+                "numero_carte": "9012345679012345",
+                "date_opposition": "2024-08-26",
+                "raison_opposition": "Suspicion de fraude",
+                "statut": "R\u00e9solu"
+            },
+            {
+                "id": 41,
+                "numero_carte": "1234567890123450",
+                "date_opposition": "2024-09-01",
+                "raison_opposition": "Carte endommag\u00e9e",
+                "statut": "En cours"
+            },
+            {
+                "id": 42,
+                "numero_carte": "5432109876543210",
+                "date_opposition": "2024-10-03",
+                "raison_opposition": "Vol de la carte",
+                "statut": "En attente"
+            },
+            {
+                "id": 43,
+                "numero_carte": "0987654321098765",
+                "date_opposition": "2024-11-14",
+                "raison_opposition": "Utilisation frauduleuse",
+                "statut": "En cours"
+            },
+            {
+                "id": 44,
+                "numero_carte": "7654321098765432",
+                "date_opposition": "2024-12-26",
+                "raison_opposition": "Perte de la carte",
+                "statut": "R\u00e9solu"
+            },
+            {
+                "id": 45,
+                "numero_carte": "6666666000000000",
+                "date_opposition": "2025-01-01",
+                "raison_opposition": "Carte expir\u00e9e",
+                "statut": "En cours"
+            },
+            {
+                "id": 46,
+                "numero_carte": "7777777000000000",
+                "date_opposition": "2025-02-13",
+                "raison_opposition": "Erreur de transaction",
+                "statut": "R\u00e9solu"
+            },
+            {
+                "id": 47,
+                "numero_carte": "8888888000000000",
+                "date_opposition": "2025-03-20",
+                "raison_opposition": "Suspicion de fraude",
+                "statut": "En attente"
+            },
+            {
+                "id": 48,
+                "numero_carte": "9999999000000000",
+                "date_opposition": "2025-04-28",
+                "raison_opposition": "Carte endommag\u00e9e",
+                "statut": "En cours"
+            },
+            {
+                "id": 49,
+                "numero_carte": "1010101000000000",
+                "date_opposition": "2025-05-30",
+                "raison_opposition": "Vol de la carte",
+                "statut": "R\u00e9solu"
+            },
+            {
+                "id": 50,
+                "numero_carte": "2020202000000000",
+                "date_opposition": "2025-06-09",
+                "raison_opposition": "Utilisation frauduleuse",
+                "statut": "En cours"
+            }
+        ]
+    ]
+}

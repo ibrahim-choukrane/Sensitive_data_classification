@@ -1,0 +1,306 @@
+{
+    "assurances_biens": [
+        [
+            {
+                "id": 1,
+                "type_bien": "Appartement",
+                "valeur_assuree": 1500000,
+                "prime_annuelle": 3000
+            },
+            {
+                "id": 2,
+                "type_bien": "Villa",
+                "valeur_assuree": 4000000,
+                "prime_annuelle": 8000
+            },
+            {
+                "id": 3,
+                "type_bien": "Maison",
+                "valeur_assuree": 800000,
+                "prime_annuelle": 1600
+            },
+            {
+                "id": 4,
+                "type_bien": "Bureau",
+                "valeur_assuree": 2000000,
+                "prime_annuelle": 4000
+            },
+            {
+                "id": 5,
+                "type_bien": "Local Commercial",
+                "valeur_assuree": 600000,
+                "prime_annuelle": 1200
+            },
+            {
+                "id": 6,
+                "type_bien": "Entrep\u00f4t",
+                "valeur_assuree": 1000000,
+                "prime_annuelle": 2000
+            },
+            {
+                "id": 7,
+                "type_bien": "Terrain",
+                "valeur_assuree": 3000000,
+                "prime_annuelle": 6000
+            },
+            {
+                "id": 8,
+                "type_bien": "Garage",
+                "valeur_assuree": 500000,
+                "prime_annuelle": 1000
+            },
+            {
+                "id": 9,
+                "type_bien": "Ch\u00e2teau",
+                "valeur_assuree": 7000000,
+                "prime_annuelle": 14000
+            },
+            {
+                "id": 10,
+                "type_bien": "Riad",
+                "valeur_assuree": 2500000,
+                "prime_annuelle": 5000
+            },
+            {
+                "id": 11,
+                "type_bien": "Ferme Agricole",
+                "valeur_assuree": 3500000,
+                "prime_annuelle": 7000
+            },
+            {
+                "id": 12,
+                "type_bien": "Piscine",
+                "valeur_assuree": 100000,
+                "prime_annuelle": 200
+            },
+            {
+                "id": 13,
+                "type_bien": "\u00c9curie",
+                "valeur_assuree": 500000,
+                "prime_annuelle": 1000
+            },
+            {
+                "id": 14,
+                "type_bien": "Bungalow",
+                "valeur_assuree": 1200000,
+                "prime_annuelle": 2400
+            },
+            {
+                "id": 15,
+                "type_bien": "H\u00f4tel",
+                "valeur_assuree": 6000000,
+                "prime_annuelle": 12000
+            },
+            {
+                "id": 16,
+                "type_bien": "Usine",
+                "valeur_assuree": 10000000,
+                "prime_annuelle": 20000
+            },
+            {
+                "id": 17,
+                "type_bien": "Hangar",
+                "valeur_assuree": 3000000,
+                "prime_annuelle": 6000
+            },
+            {
+                "id": 18,
+                "type_bien": "Atelier",
+                "valeur_assuree": 800000,
+                "prime_annuelle": 1600
+            },
+            {
+                "id": 19,
+                "type_bien": "Palais",
+                "valeur_assuree": 9000000,
+                "prime_annuelle": 18000
+            },
+            {
+                "id": 20,
+                "type_bien": "Moulin",
+                "valeur_assuree": 2000000,
+                "prime_annuelle": 4000
+            },
+            {
+                "id": 21,
+                "type_bien": "Cabinet M\u00e9dical",
+                "valeur_assuree": 400000,
+                "prime_annuelle": 800
+            },
+            {
+                "id": 22,
+                "type_bien": "\u00c9cole",
+                "valeur_assuree": 1500000,
+                "prime_annuelle": 3000
+            },
+            {
+                "id": 23,
+                "type_bien": "Cin\u00e9ma",
+                "valeur_assuree": 3500000,
+                "prime_annuelle": 7000
+            },
+            {
+                "id": 24,
+                "type_bien": "Cr\u00e8che",
+                "valeur_assuree": 600000,
+                "prime_annuelle": 1200
+            },
+            {
+                "id": 25,
+                "type_bien": "Co-working Space",
+                "valeur_assuree": 1000000,
+                "prime_annuelle": 2000
+            },
+            {
+                "id": 26,
+                "type_bien": "Caf\u00e9",
+                "valeur_assuree": 500000,
+                "prime_annuelle": 1000
+            },
+            {
+                "id": 27,
+                "type_bien": "Salon de Beaut\u00e9",
+                "valeur_assuree": 200000,
+                "prime_annuelle": 400
+            },
+            {
+                "id": 28,
+                "type_bien": "SPA",
+                "valeur_assuree": 80000,
+                "prime_annuelle": 160
+            },
+            {
+                "id": 29,
+                "type_bien": "Boulangerie",
+                "valeur_assuree": 120000,
+                "prime_annuelle": 240
+            },
+            {
+                "id": 30,
+                "type_bien": "Galerie d'Art",
+                "valeur_assuree": 150000,
+                "prime_annuelle": 300
+            },
+            {
+                "id": 31,
+                "type_bien": "Librairie",
+                "valeur_assuree": 300000,
+                "prime_annuelle": 600
+            },
+            {
+                "id": 32,
+                "type_bien": "Boutique de V\u00eatements",
+                "valeur_assuree": 400000,
+                "prime_annuelle": 800
+            },
+            {
+                "id": 33,
+                "type_bien": "Salon de Th\u00e9",
+                "valeur_assuree": 80000,
+                "prime_annuelle": 160
+            },
+            {
+                "id": 34,
+                "type_bien": "Supermarch\u00e9",
+                "valeur_assuree": 600000,
+                "prime_annuelle": 1200
+            },
+            {
+                "id": 35,
+                "type_bien": "Animalerie",
+                "valeur_assuree": 100000,
+                "prime_annuelle": 200
+            },
+            {
+                "id": 36,
+                "type_bien": "Parc d'Attractions",
+                "valeur_assuree": 5000000,
+                "prime_annuelle": 10000
+            },
+            {
+                "id": 37,
+                "type_bien": "Salle de Sport",
+                "valeur_assuree": 800000,
+                "prime_annuelle": 1600
+            },
+            {
+                "id": 38,
+                "type_bien": "Auberge",
+                "valeur_assuree": 3000000,
+                "prime_annuelle": 6000
+            },
+            {
+                "id": 39,
+                "type_bien": "Pension",
+                "valeur_assuree": 600000,
+                "prime_annuelle": 1200
+            },
+            {
+                "id": 40,
+                "type_bien": "Camping",
+                "valeur_assuree": 200000,
+                "prime_annuelle": 400
+            },
+            {
+                "id": 41,
+                "type_bien": "Salle de R\u00e9ception",
+                "valeur_assuree": 1500000,
+                "prime_annuelle": 3000
+            },
+            {
+                "id": 42,
+                "type_bien": "Salon de Coiffure",
+                "valeur_assuree": 400000,
+                "prime_annuelle": 800
+            },
+            {
+                "id": 43,
+                "type_bien": "Cabinet d'Avocat",
+                "valeur_assuree": 500000,
+                "prime_annuelle": 1000
+            },
+            {
+                "id": 44,
+                "type_bien": "Studio d'Enregistrement",
+                "valeur_assuree": 80000,
+                "prime_annuelle": 160
+            },
+            {
+                "id": 45,
+                "type_bien": "Cabinet Comptable",
+                "valeur_assuree": 100000,
+                "prime_annuelle": 200
+            },
+            {
+                "id": 46,
+                "type_bien": "Cabinet de Recrutement",
+                "valeur_assuree": 200000,
+                "prime_annuelle": 400
+            },
+            {
+                "id": 47,
+                "type_bien": "Agence Immobili\u00e8re",
+                "valeur_assuree": 500000,
+                "prime_annuelle": 1000
+            },
+            {
+                "id": 48,
+                "type_bien": "Soci\u00e9t\u00e9 de Nettoyage",
+                "valeur_assuree": 300000,
+                "prime_annuelle": 600
+            },
+            {
+                "id": 49,
+                "type_bien": "\u00c9picerie",
+                "valeur_assuree": 80000,
+                "prime_annuelle": 160
+            },
+            {
+                "id": 50,
+                "type_bien": "Magasin de Sport",
+                "valeur_assuree": 400000,
+                "prime_annuelle": 800
+            }
+        ]
+    ]
+}

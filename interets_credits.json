@@ -1,0 +1,306 @@
+{
+    "interets_credits": [
+        [
+            {
+                "id": 1,
+                "montant": 1500.2,
+                "date_operation": "2021-10-05",
+                "numero_compte": "SA123456789"
+            },
+            {
+                "id": 2,
+                "montant": 2000.5,
+                "date_operation": "2021-09-20",
+                "numero_compte": "CC987654321"
+            },
+            {
+                "id": 3,
+                "montant": 1800.75,
+                "date_operation": "2021-08-15",
+                "numero_compte": "EP246802468"
+            },
+            {
+                "id": 4,
+                "montant": 2500.3,
+                "date_operation": "2021-07-10",
+                "numero_compte": "CC135792468"
+            },
+            {
+                "id": 5,
+                "montant": 3000.8,
+                "date_operation": "2021-06-25",
+                "numero_compte": "SA987654321"
+            },
+            {
+                "id": 6,
+                "montant": 1900.25,
+                "date_operation": "2021-05-18",
+                "numero_compte": "CC123456789"
+            },
+            {
+                "id": 7,
+                "montant": 2200.5,
+                "date_operation": "2021-04-07",
+                "numero_compte": "EP975318642"
+            },
+            {
+                "id": 8,
+                "montant": 1600.4,
+                "date_operation": "2021-03-12",
+                "numero_compte": "SA246802468"
+            },
+            {
+                "id": 9,
+                "montant": 2700.6,
+                "date_operation": "2021-02-08",
+                "numero_compte": "CC693258741"
+            },
+            {
+                "id": 10,
+                "montant": 2100.7,
+                "date_operation": "2021-01-04",
+                "numero_compte": "EP147258369"
+            },
+            {
+                "id": 11,
+                "montant": 2400.9,
+                "date_operation": "2020-12-20",
+                "numero_compte": "SA369852147"
+            },
+            {
+                "id": 12,
+                "montant": 2800.35,
+                "date_operation": "2020-11-15",
+                "numero_compte": "CC852147963"
+            },
+            {
+                "id": 13,
+                "montant": 1850.25,
+                "date_operation": "2020-10-10",
+                "numero_compte": "EP963258741"
+            },
+            {
+                "id": 14,
+                "montant": 2250.55,
+                "date_operation": "2020-09-05",
+                "numero_compte": "SA258741369"
+            },
+            {
+                "id": 15,
+                "montant": 2950.7,
+                "date_operation": "2020-08-02",
+                "numero_compte": "CC147258369"
+            },
+            {
+                "id": 16,
+                "montant": 1930.45,
+                "date_operation": "2020-07-18",
+                "numero_compte": "EP369852147"
+            },
+            {
+                "id": 17,
+                "montant": 2300.3,
+                "date_operation": "2020-06-10",
+                "numero_compte": "SA852147963"
+            },
+            {
+                "id": 18,
+                "montant": 2750.8,
+                "date_operation": "2020-05-05",
+                "numero_compte": "CC963258741"
+            },
+            {
+                "id": 19,
+                "montant": 2050.6,
+                "date_operation": "2020-04-01",
+                "numero_compte": "EP741258963"
+            },
+            {
+                "id": 20,
+                "montant": 2600.7,
+                "date_operation": "2020-03-27",
+                "numero_compte": "SA258963147"
+            },
+            {
+                "id": 21,
+                "montant": 1950.4,
+                "date_operation": "2020-02-25",
+                "numero_compte": "CC369741852"
+            },
+            {
+                "id": 22,
+                "montant": 2150.55,
+                "date_operation": "2020-01-20",
+                "numero_compte": "EP852147963"
+            },
+            {
+                "id": 23,
+                "montant": 2450.9,
+                "date_operation": "2019-12-15",
+                "numero_compte": "SA741258963"
+            },
+            {
+                "id": 24,
+                "montant": 2850.25,
+                "date_operation": "2019-11-09",
+                "numero_compte": "CC123456789"
+            },
+            {
+                "id": 25,
+                "montant": 1900.7,
+                "date_operation": "2019-10-04",
+                "numero_compte": "EP987654321"
+            },
+            {
+                "id": 26,
+                "montant": 2250.8,
+                "date_operation": "2019-09-01",
+                "numero_compte": "SA369852147"
+            },
+            {
+                "id": 27,
+                "montant": 3000.3,
+                "date_operation": "2019-08-15",
+                "numero_compte": "CC785236941"
+            },
+            {
+                "id": 28,
+                "montant": 1700.5,
+                "date_operation": "2019-07-07",
+                "numero_compte": "EP123698745"
+            },
+            {
+                "id": 29,
+                "montant": 2350.6,
+                "date_operation": "2019-06-01",
+                "numero_compte": "SA632589147"
+            },
+            {
+                "id": 30,
+                "montant": 2800.45,
+                "date_operation": "2019-05-25",
+                "numero_compte": "CC852369741"
+            },
+            {
+                "id": 31,
+                "montant": 1850.7,
+                "date_operation": "2019-04-10",
+                "numero_compte": "EP741258963"
+            },
+            {
+                "id": 32,
+                "montant": 2150.8,
+                "date_operation": "2019-03-05",
+                "numero_compte": "SA369852147"
+            },
+            {
+                "id": 33,
+                "montant": 2650.25,
+                "date_operation": "2019-02-01",
+                "numero_compte": "CC963852741"
+            },
+            {
+                "id": 34,
+                "montant": 1950.4,
+                "date_operation": "2019-01-20",
+                "numero_compte": "EP852147963"
+            },
+            {
+                "id": 35,
+                "montant": 2400.6,
+                "date_operation": "2018-12-15",
+                "numero_compte": "SA478963215"
+            },
+            {
+                "id": 36,
+                "montant": 2750.3,
+                "date_operation": "2018-11-10",
+                "numero_compte": "CC965874123"
+            },
+            {
+                "id": 37,
+                "montant": 1950.7,
+                "date_operation": "2018-10-05",
+                "numero_compte": "EP123698745"
+            },
+            {
+                "id": 38,
+                "montant": 2250.8,
+                "date_operation": "2018-09-02",
+                "numero_compte": "SA698741236"
+            },
+            {
+                "id": 39,
+                "montant": 2800.25,
+                "date_operation": "2018-08-25",
+                "numero_compte": "CC852369741"
+            },
+            {
+                "id": 40,
+                "montant": 1850.45,
+                "date_operation": "2018-07-18",
+                "numero_compte": "EP369852147"
+            },
+            {
+                "id": 41,
+                "montant": 2100.6,
+                "date_operation": "2018-06-10",
+                "numero_compte": "SA852147963"
+            },
+            {
+                "id": 42,
+                "montant": 2550.3,
+                "date_operation": "2018-05-05",
+                "numero_compte": "CC785236941"
+            },
+            {
+                "id": 43,
+                "montant": 2000.7,
+                "date_operation": "2018-04-01",
+                "numero_compte": "EP146598723"
+            },
+            {
+                "id": 44,
+                "montant": 2300.8,
+                "date_operation": "2018-03-27",
+                "numero_compte": "SA258963147"
+            },
+            {
+                "id": 45,
+                "montant": 2650.25,
+                "date_operation": "2018-02-25",
+                "numero_compte": "CC369741852"
+            },
+            {
+                "id": 46,
+                "montant": 1850.4,
+                "date_operation": "2018-01-20",
+                "numero_compte": "EP852147963"
+            },
+            {
+                "id": 47,
+                "montant": 2200.6,
+                "date_operation": "2017-12-15",
+                "numero_compte": "SA741258963"
+            },
+            {
+                "id": 48,
+                "montant": 2650.3,
+                "date_operation": "2017-11-09",
+                "numero_compte": "CC598612375"
+            },
+            {
+                "id": 49,
+                "montant": 1950.7,
+                "date_operation": "2017-10-04",
+                "numero_compte": "EP369741852"
+            },
+            {
+                "id": 50,
+                "montant": 2120.45,
+                "date_operation": "2017-09-01",
+                "numero_compte": "SA398716254"
+            }
+        ]
+    ]
+}
