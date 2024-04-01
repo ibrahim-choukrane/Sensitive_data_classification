@@ -9,7 +9,7 @@ data = []
 embedding_data = []
 
 for i in os.listdir("./"):
-    if os.path.splitext(i)[1] == ".csv" and i not in ["dev.csv", "Glove_embeddings.csv", "labeled_data.csv", "labeled.csv", "elmo_embeddings.csv", "labeled_elmo_embeddings.csv"]:
+    if os.path.splitext(i)[1] == ".csv" and i not in ['tabbie_embeddings.csv', 'labeled_tabbie_embeddings.csv', 'fasttext_embeddings.csv','labeled_fasttext_embeddings.csv' ,"dev.csv", "Glove_embeddings.csv", "labeled_data.csv", "labeled.csv", "elmo_embeddings.csv", "labeled_elmo_embeddings.csv", "labeled_bert_embeddings.csv" , "labeled_tabert_embeddings.csv", "tabert_embeddings.csv", "bert_embeddings.csv"]:
     # if os.path.splitext(i)[1] == ".csv" and i in ["agences.csv"]:
         tables.append(i)
 
